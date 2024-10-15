@@ -34,6 +34,10 @@ const colors = ['transparent', '#1549e6', '#f00'];
 
 
 <style scoped>
+:root{
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);}
+    
 .hero-container {
   display: flex;
   flex-direction: row;
