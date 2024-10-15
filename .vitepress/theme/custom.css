@@ -36,6 +36,8 @@ html.dark{
   --vp-c-brand-2: #c52121; /* tip / hlavní */
   --vp-c-divider: #e2e2e3; /* <hr> barva */
   --vp-c-gutter: #e2e2e3; /* horní <hr> */
+	--vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);
 }
 
 /***********************************************/
