@@ -20,28 +20,6 @@ hero:
 footer: MIT Licensed | Copyright © 2024-present MikeCZ
 ---
 
-<style>
-:root{
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00, #ffe2e2, #e3deff, #00f);
-  
- /* --vp-home-hero-image-background-image: linear-gradient(-45deg,  #910000 60%, #02008d 60%);
-    --vp-home-hero-image-filter: blur(20px); */
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(35px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(40px);
-  }
-} 
-</style>
-
 <div class="status">
 <div class="mikecz">
 
