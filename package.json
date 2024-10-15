@@ -48,7 +48,7 @@
     "element-plus": "^2.8.3",
     "markdown-it": "^14.1.0",
     "markdown-it-footnote": "^4.0.0",
-    "vitepress-carbon": "^1.4.5",
+    "vitepress-carbon": "^1.4.6",
     "vitepress-plugin-auto-sidebar": "^1.2.0",
     "vitepress-plugin-back-to-top": "^1.0.1",
     "vitepress-plugin-rss": "^0.2.3",
