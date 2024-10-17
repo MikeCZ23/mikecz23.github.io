@@ -5,7 +5,7 @@ const P = { class: "life-progress" }, A = { class: "month" }, T = { class: "day"
     customEventName: null
   },
   setup(e) {
-    const n = e, o = y(!1), h = (t = !0) => o.value = t, d = ["Led", "Ún", "Bře", "Dub", "Kvě", "Červ", "Červn", "Srn", "Zář", "Říj", "Lis", "Pro"], f = () => new Date(), N = (t, s) => new Date(t, s, 0).getDate(), i = y(f()), D = a(() => i.value.getFullYear()), l = a(() => i.value.getMonth()), w = a(() => i.value.getDate()), L = a(() => N(D.value, l.value)), b = a(() => d.map((t, s) => ({
+    const n = e, o = y(!1), h = (t = !0) => o.value = t, d = ["Led", "Úno", "Bře", "Dub", "Kvě", "Čevn", "Čvc", "Srp", "Zář", "Říj", "Lis", "Pro"], f = () => new Date(), N = (t, s) => new Date(t, s, 0).getDate(), i = y(f()), D = a(() => i.value.getFullYear()), l = a(() => i.value.getMonth()), w = a(() => i.value.getDate()), L = a(() => N(D.value, l.value)), b = a(() => d.map((t, s) => ({
       name: t,
       width: s < l.value ? 100 : s === l.value ? w.value / L.value * 100 : 0
     }))), E = (t) => h(t.detail);
