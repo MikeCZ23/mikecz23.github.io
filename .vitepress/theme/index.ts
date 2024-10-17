@@ -13,6 +13,8 @@ import PTeamMembers from "./components/PTeamMembers.vue";
 import Layout from "./components/Layout.vue";
 import vitepressBackToTop from '../../plugins/vitepress-plugin-back-to-top/';
 import './BtP-style.css'
+import vitepressLifeProgress from '../../docs/plugins/vitepress-plugin-life-progress'
+import '../../docs/plugins/vitepress-plugin-life-progress/lib/css/index.css'
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -22,6 +24,10 @@ import 'element-plus/theme-chalk/dark/css-vars.css'
 export default {
   Layout: () => h(Layout),
   extends: DefaultTheme,
+
+  setup () {
+     vitepressLifeProgress()
+  },
   
   enhanceApp({ app }) {
     app.component("PBlogFigure", PBlogFigure);
