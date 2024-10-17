@@ -26,7 +26,7 @@ export default {
   extends: DefaultTheme,
 
   setup () {
-     vitepressLifeProgress()
+    vitepressLifeProgress()
   },
   
   enhanceApp({ app }) {
