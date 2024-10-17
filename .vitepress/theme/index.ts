@@ -32,6 +32,10 @@ export default {
 
     app.use(ElementPlus)
 
+    setup () {
+      vitepressLifeProgress()
+    },
+
     vitepressBackToTop({
       // default
       threshold:300
