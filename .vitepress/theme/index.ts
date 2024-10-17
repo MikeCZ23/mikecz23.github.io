@@ -22,10 +22,6 @@ import 'element-plus/theme-chalk/dark/css-vars.css'
 export default {
   Layout: () => h(Layout),
   extends: DefaultTheme,
-
-  setup () {
-    vitepressLifeProgress()
-  },
   
   enhanceApp({ app }) {
     app.component("PBlogFigure", PBlogFigure);
