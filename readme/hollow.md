@@ -99,9 +99,7 @@ Na překladu se podílejí následující lidé:
 Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
-<el-badge :value="3500" :max="3000" class="item">
-  <a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" target="_blank" download>Stáhnout</a> <br>
-</el-badge> <br>
+<a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" target="_blank" download>Stáhnout</a> <br>
 4. květen 2024 - oprava několika řádků
 
 <el-divider />
