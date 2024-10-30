@@ -48,19 +48,19 @@ const people = {
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="68" :stroke-width="18" :text-inside="true" status="success" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="71" :stroke-width="18" :text-inside="true" status="success" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="95" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="70" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Testovani:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="95" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="70" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-itch.io-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-0.8-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-0.8.1-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-0.7-red?style=for-the-badge&labelColor=red)
 
 ------------
