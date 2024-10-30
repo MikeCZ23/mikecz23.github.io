@@ -113,7 +113,7 @@ export default defineConfig({
     ['script', { async: '', src: '//cdn.jsdelivr.net/npm/vue@3' }],
     ['script', { async: '', src: '//cdn.jsdelivr.net/npm/element-plus' }],
     ["link", { rel: "icon", href: "/favicon1.ico" }],
-    ['meta', { name: 'description', content: 'Stránka fansouškovských překladů her' }],
+    ['meta', { name: 'description', content: 'Stránka mých překladů her' }],
     ['meta', { property: 'og:url', content: 'https://github.com/MikeCZ23' }],
     ['meta', { property: 'og:type', content: 'website' }],
     // ['meta', { property: 'og:title', content: 'MikeCZ - Češtiny' }],
