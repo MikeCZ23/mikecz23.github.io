@@ -102,7 +102,7 @@ export default defineConfig({
   
   title: "Češtiny od MikeCZ",
   cleanUrls: true,
-  description: "Stránka fanouškovských překladů her.",
+  description: "Stránka mých překladů her.",
   cacheDir: './.vitepress/cache',
   outDir: '',
   srcDir: '',
