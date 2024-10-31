@@ -169,6 +169,14 @@ img{
   opacity: 1;
   text-transform: uppercase;
 }
+@media (max-width: 900px) {
+  .card .label {
+    top: 5%;              /* Umístění horního okraje vůči velikosti obrazovky */
+    right: 5%;            /* Umístění pravého okraje vůči velikosti obrazovky */
+    padding: 0.3em 0.6em; /* Relativní padding pro menší velikost */
+    font-size: 0.5em;     /* Zmenšení písma na 80 % základní velikosti */
+  }
+}
 .label-public {
   background-color: var(--card-public);
 }
