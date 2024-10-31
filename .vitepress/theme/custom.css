@@ -19,6 +19,19 @@ html.dark{
   --el-color-warning-dark-2: #66b1ff;
   --el-color-success: #518235;
   --el-color-warning: #a18320;
+	--tag-red-bg: #8a2a2a;
+  --tag-red-hover: #a54b4b;
+  --tag-blue-bg: #2a598a;
+  --tag-blue-hover: #4b77a5;
+  --tag-yellow-bg: #67792c;
+  --tag-yellow-hover: #97a54b;
+  --tag-purple-bg: #5d2a8a;
+  --tag-purple-hover: #744ba5;
+  --tag-tyrkys-bg: #2a828a;
+  --tag-tyrkys-hover: #4b9fa5;
+	--card-public: #00801c;
+  --card-early: #869b02;
+  --card-alpha: #004980;
 }
 :root{
   color-scheme:light;
@@ -37,7 +50,7 @@ html.dark{
   --vp-c-divider: #e2e2e3; /* <hr> barva */
   --vp-c-gutter: #e2e2e3; /* horní <hr> */
 	--vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);
 }
 
 /***********************************************/
@@ -87,49 +100,87 @@ img{
     margin-right: 5px;
 }
 
-.status .mikecz p {
+.status .mikecz {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* 8 */
+  gap: 10px; /*8*/
 }
+
+.status hr {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
 .status .mikecz a {
   display: block;
   width: calc(20% - 8px); /* 25 - 6 */
+  transition: transform 0.2s ease;
 }
+
+.status .mikecz a:nth-child(6) {
+  opacity: 0.05;
+ }
+
 .status .mikecz img {
   display: block;
   width: 100%;
 }
+
 .status a:hover {
-    transform: scale(0.96);
+  transform: scale(0.96);
 }
+
 @media (max-width: 600px) {
   .status .mikecz a {
-    width: calc(50% - 5px); /* 50 - 4*/
+    width: calc(50% - 5px); /* 50 - 4 */
   }
 }
+
 .status .mikecz a:nth-child(5){
   opacity: 0.05;
 }
 
-.status .pertim p {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+/* Nové styly pro .card a nálepku */
+.card {
+  position: relative;
+  border: 3px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
-.status .pertim a {
-  display: block;
-  width: calc(25% - 6px);
+.card-public {
+  /* border: 3px solid; */ /* při :hover */
+  border-color: var(--card-public);
 }
-.status .pertim img {
-  display: block;
-  width: 100%;
+.card-alpha {
+  border-color: var(--card-alpha);
+}
+.card-early {
+  border-color: var(--card-early);
 }
 
-@media (max-width: 600px) {
-  .status .pertim a {
-    width: calc(50% - 4px);
-  }
+.card .label {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.label-public {
+  background-color: var(--card-public);
+}
+.label-alpha {
+  background-color: var(--card-alpha);
+}
+.label-early {
+  background-color: var(--card-early);
 }
 
 h1.name{
