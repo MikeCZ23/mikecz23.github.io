@@ -118,10 +118,6 @@ img{
   transition: transform 0.2s ease;
 }
 
-.status .mikecz a:nth-child(6) {
-  opacity: 0.05;
- }
-
 .status .mikecz img {
   display: block;
   width: 100%;
