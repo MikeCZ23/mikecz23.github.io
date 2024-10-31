@@ -100,7 +100,7 @@ img{
     margin-right: 5px;
 }
 
-.status .mikecz p {
+.status .mikecz {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; /*8*/
