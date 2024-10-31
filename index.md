@@ -26,19 +26,30 @@ footer: MIT Licensed | Copyright © 2024-present MikeCZ
 <!-- ## MikeCZ --> 
 <hr>
 
-[![Foo](./public/hollow.jpg)](readme/hollow.md)
-[![Foo](https://repacklab.com/wp-content/uploads/2021/02/Plague-Inc-Evolved-Free-Download-Repacklab-5.jpg)](readme/plague.md)
-[![Foo](./public/progress.jpg)](readme/progressbar95.md)
-[![Foo](./public/voice.png)](readme/VotV.md)
-[![Foo](https://cdn2.steamgriddb.com/thumb/ba579f96314e513bc3e04daf60a234d6.jpg)](readme/silksong.md)
-[![Foo](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900_2x.jpg?t=1721928496)](readme/Infection.md)
+<div class="status">
+  <div class="mikecz">
+    <a href="readme/hollow.md" class="card card-public">
+      <div class="label label-public">Veřejná verze</div>
+      <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/hollow.jpg" alt="Hollow">
+    </a>
+    <a href="readme/plague.md" class="card card-early">
+      <div class="label label-early">Předběžný přístup</div>
+      <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/plague.jpg" alt="Plague">
+    </a>
+    <a href="readme/VotV.md" class="card card-public">
+      <div class="label label-public">Veřejná verze</div>
+      <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/progress.jpg" alt="Progress">
+    </a>
+    <a href="readme/progressbar95.md" class="card card-public">
+      <div class="label label-public">Veřejná verze</div>
+      <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/voice.png" alt="Voice">
+    </a>
+    <a href="readme/silksong.md" class="card">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/library_600x900_2x.jpg" alt="Silksong">
+    </a>
+    <a href="readme/Infection.md" class="card card-public">
+      <div class="label label-public">Veřejná verze</div>
+      <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900_2x.jpg?t=1721928496" alt="Infection">
+    </a>
+  </div>
 </div>
-<!-- <div class="pertim">
-
-## Pertim
-[![Foo](./public/summer.jpg)](readme/summer.md)
-[![Foo](./public/silver.jpg)](readme/silcha.md)
-[![Foo](./public/count.jpg)](readme/count6.md)
-[![Foo](./public/alone.jpg)](readme/alodar.md)
-</div> -->
-</div> 
