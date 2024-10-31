@@ -23,6 +23,7 @@ footer: MIT Licensed | Copyright © 2024-present MikeCZ
 
 <div class="status">
   <div class="mikecz">
+    <p>
     <a href="readme/hollow.md" class="card card-public">
       <div class="label label-public">Veřejná verze</div>
       <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/hollow.jpg" alt="Hollow">
@@ -46,5 +47,6 @@ footer: MIT Licensed | Copyright © 2024-present MikeCZ
       <div class="label label-public">Veřejná verze</div>
       <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900_2x.jpg?t=1721928496" alt="Infection">
     </a>
+    </p>
   </div>
 </div>
