@@ -70,7 +70,7 @@ cesta: ..\Infection Free Zone_Data\StreamingAssets\Languages <br />
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/3mdvc1jdeqy25625qzs1s/Infection-Free-Zone-e-tina.rar?rlkey=xtw23oflo72tpmt9btffh9im3&st=dzpev8do&dl=1" target="_blank">Stáhnout</a> <sup>[Direct]</sup> <br>
-<a href="https://www.dropbox.com/scl/fi/3mdvc1jdeqy25625qzs1s/Infection-Free-Zone-e-tina.rar?rlkey=xtw23oflo72tpmt9btffh9im3&st=dzpev8do&dl=1" target="_blank">Stáhnout</a> <sup>[Mirror] [lokalizace.net]</sup> <br>
+<a href="https://lokalizace.net/cestina-do/infection-free-zone" target="_blank">Stáhnout</a> <sup>[Mirror] [lokalizace.net]</sup> <br>
 
 <el-divider />
 
