@@ -19,7 +19,7 @@ html.dark{
   --el-color-warning-dark-2: #66b1ff;
   --el-color-success: #518235;
   --el-color-warning: #a18320;
-	--tag-red-bg: #8a2a2a;
+--tag-red-bg: #8a2a2a;
   --tag-red-hover: #a54b4b;
   --tag-blue-bg: #2a598a;
   --tag-blue-hover: #4b77a5;
@@ -29,7 +29,7 @@ html.dark{
   --tag-purple-hover: #744ba5;
   --tag-tyrkys-bg: #2a828a;
   --tag-tyrkys-hover: #4b9fa5;
-	--card-public: #00801c;
+--card-public: #00801c;
   --card-early: #869b02;
   --card-alpha: #004980;
 }
@@ -45,11 +45,11 @@ html.dark{
   --el-color-custom-success: #518235;
   --el-color-custom-warning: #a18320;
   --el-color-custom-primary: #2d69a7;
-	--vp-c-brand-1: #ff6767; /* tip / hlavní */
+--vp-c-brand-1: #ff6767; /* tip / hlavní */
   --vp-c-brand-2: #c52121; /* tip / hlavní */
   --vp-c-divider: #e2e2e3; /* <hr> barva */
   --vp-c-gutter: #e2e2e3; /* horní <hr> */
-	--vp-home-hero-name-color: transparent;
+--vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);
 }
 
@@ -169,7 +169,7 @@ img{
   opacity: 1;
   text-transform: uppercase;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .card .label {
     top: 5%;              /* Umístění horního okraje vůči velikosti obrazovky */
     right: 5%;            /* Umístění pravého okraje vůči velikosti obrazovky */
