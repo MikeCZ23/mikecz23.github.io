@@ -98,20 +98,17 @@ cesta: ..\VotV\Content\Paks <br />
 nahradí to Češtinu
 
 ## Ke stažení
-<el-link type="danger" disabled>Stáhnout</el-link> <br>
-
-<!-- <a href="https://www.dropbox.com/scl/fi/ktf9o7xv1obk74z3thyqo/VotV_Czech.7z?rlkey=qtgj5tggxnej92s8bgm5qxqms&st=ncz80j55&dl=1" target="_self">Stáhnout</a> -->
+<a target="_self" class="disabled">Stáhnout</a> <br>
 21. srpen 2024 - oprava několika řádků
 
 <el-divider />
+<!-- https://www.dropbox.com/scl/fi/ktf9o7xv1obk74z3thyqo/VotV_Czech.7z?rlkey=qtgj5tggxnej92s8bgm5qxqms&st=ncz80j55&dl=1 -->
 
-
-<style scoped>
-.el-link {
-  margin-right: 8px;
-}
-.el-link .el-icon--right.el-icon {
-  vertical-align: text-bottom;
+<style>
+.disabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 </style>
 
