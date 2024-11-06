@@ -19,6 +19,7 @@ const people = {
   l10n: [
     { name: "Hopes", role: "Překlad"},
     { name: "Redpomp55", role: "Překlad"},
+    { name: "Metroxx", role: "Překlad"},
     { name: "Hopes", role: "Korektura"},
   ],
   support: [
