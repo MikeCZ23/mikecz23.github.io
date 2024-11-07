@@ -106,9 +106,8 @@ nahradí to Češtinu
 
 <style>
 .disabled{
-  pointer-events: none;
   cursor: not-allowed;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 </style>
 
