@@ -24,7 +24,6 @@ const { frontmatter, title } = useData()
           categoryId="DIC_kwDONH8AEs4CkLim" 
           :theme="isDark ? 'https://cdn.jsdelivr.net/gh/MikeCZ23/mikecz23.github.io@latest/.vitepress/theme/giscus-dark.css' : 'https://cdn.jsdelivr.net/gh/MikeCZ23/mikecz23.github.io@latest/.vitepress/theme/giscus-light.css'"
           lang="en"
-          loading="lazy"
           emit-metadata="0"
           reactions-enabled="1"
           input-position="top"
