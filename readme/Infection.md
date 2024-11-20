@@ -46,7 +46,7 @@ const people = {
 
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20hry-aktuální-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.24.10.24-grey?style=for-the-badge)
+![](https://img.shields.io/badge/verze%20překladu-0.24.11.14_14-grey?style=for-the-badge)
 
 ------------
 Vyberte si libovolný skutečný region na světě. Zvolte si základnu a poté přestavte a přizpůsobte budovy v okolí, abyste vytvořili soběstačnou osadu. Převezměte vedení skupiny přeživších z vašeho města. A když padne noc - braňte zónu před nakaženými!
