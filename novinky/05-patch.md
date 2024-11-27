@@ -1,6 +1,6 @@
 ---
 title: 05. Patch do Infection Free Zone
-date: 2024-10-30
+date: 2024-11-27
 comments: false
 lastUpdated: false
 editLink: false
@@ -13,4 +13,3 @@ Patch do Infection Free Zone
 
 Patch na novou verzi hry <br />
 Přeloženy nové řádky <br/>
-Opravena spousta řádků
