@@ -55,7 +55,7 @@ body::before {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  opacity: 0.5;
+  opacity: 0.2;
   z-index: -1;
 }
 
