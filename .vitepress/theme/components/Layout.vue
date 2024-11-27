@@ -37,33 +37,6 @@ const { frontmatter, title } = useData()
   </Layout>
 </template>
 
-<style>
-body {
-  position: relative;
-  overflow-x: hidden;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url(https://img.freepik.com/free-photo/christmas-ornaments-candy-canes-dark-background_24972-620.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  opacity: 0.2;
-  z-index: -1;
-}
-
-.aside-curtain[data-v-e6f2a212]{
-  background: transparent;
-}
-</style>
-
 <script lang="ts">
 import { watch } from 'vue'
 import { useRoute, useData } from 'vitepress'
