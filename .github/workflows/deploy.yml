@@ -39,23 +39,24 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        if: ${{ github.event.inputs.mode == 'normal' }} # Pouze pro normální režim
+        if: ${{ github.event.inputs.mode == 'normal' }}
         run: npm ci
 
       - name: Build with VitePress
-        if: ${{ github.event.inputs.mode == 'normal' }} # Pouze pro normální režim
+        if: ${{ github.event.inputs.mode == 'normal' }}
         run: npm run docs:build
 
       - name: Copy Maintenance Files
-        if: ${{ github.event.inputs.mode == 'maintenance' }} # Pouze pro maintenance režim
+        if: ${{ github.event.inputs.mode == 'maintenance' }}
         run: |
-          mkdir -p .vitepress/dist
-          cp -r maintenance/* .vitepress/dist/
+          rm -rf output
+          mkdir -p output
+          cp -r maintenance/* output/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist
+          path: output
 
   deploy:
     environment:
