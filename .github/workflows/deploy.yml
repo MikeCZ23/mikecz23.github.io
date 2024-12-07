@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Deployment mode: 'normal' or 'maintenance'"
+        required: true
+        default: "normal"
 
 permissions:
   contents: read
@@ -23,17 +28,30 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Install dependencies
+        if: ${{ github.event.inputs.mode == 'normal' }} # Pouze pro normální režim
         run: npm ci
+
       - name: Build with VitePress
+        if: ${{ github.event.inputs.mode == 'normal' }} # Pouze pro normální režim
         run: npm run docs:build
+
+      - name: Copy Maintenance Files
+        if: ${{ github.event.inputs.mode == 'maintenance' }} # Pouze pro maintenance režim
+        run: |
+          mkdir -p .vitepress/dist
+          cp -r maintenance/* .vitepress/dist/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
