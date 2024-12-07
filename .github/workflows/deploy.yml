@@ -30,6 +30,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node
+        if: ${{ github.event.inputs.mode == 'normal' }}
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -49,11 +50,10 @@ jobs:
       - name: Copy Maintenance Files
         if: ${{ github.event.inputs.mode == 'maintenance' }}
         run: |
-          rm -rf output
-          mkdir -p output
-          cp -r maintenance/* output/
+          rm -rf ./*
+          cp -r maintenance/* .
 
-      - name: Upload artifact
+      - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
