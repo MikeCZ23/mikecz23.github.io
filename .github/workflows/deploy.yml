@@ -28,35 +28,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Setup Node
-        if: ${{ github.event.inputs.mode == 'normal' }}
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
       - name: Install dependencies
-        if: ${{ github.event.inputs.mode == 'normal' }}
         run: npm ci
-
       - name: Build with VitePress
-        if: ${{ github.event.inputs.mode == 'normal' }}
         run: npm run docs:build
-
-      - name: Copy Maintenance Files
-        if: ${{ github.event.inputs.mode == 'maintenance' }}
-        run: |
-          rm -rf ./*
-          cp -r maintenance/* .
-
-      - name: Upload to GitHub Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: .vitepress/dist
 
   deploy:
     environment:
