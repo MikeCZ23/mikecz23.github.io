@@ -43,7 +43,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # Nasazuje obsah z rootu, pokud je režim normal
+          path: .vitepress/dist  # Pokud je výstup ve složce dist, uprav tuto cestu
 
   maintenance:
     if: ${{ inputs.mode == 'maintenance' }}  # Tento job se spustí pouze v režimu údržby
@@ -58,7 +58,7 @@ jobs:
           path: maintenance  # Nasazuje obsah složky maintenance, pokud je režim údržby
 
   deploy:
-    if: ${{ always() }}  # Tento job se spustí vždy, i když jsou předchozí joby přeskočeny
+    if: ${{ always() }}  # Tento job se spustí vždy
     needs: [build, maintenance]  # Čeká na build nebo maintenance joby
     runs-on: ubuntu-latest
     environment:
@@ -69,3 +69,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: "github-pages"  # Ujistíme se, že se správně používá název artefaktu
