@@ -3,9 +3,9 @@ name: Deploy VitePress site to Pages
 on:
   push:
     branches:
-      - main  # Trigger pro hlavní větev
-      - maintenance  # Trigger pro větev údržby
-  workflow_dispatch:  # Ruční spuštění workflow
+      - main         # Spustí workflow pro větve 'main'
+      - maintenance  # Spustí workflow pro větev 'maintenance'
+  workflow_dispatch:  # Umožní ruční spuštění workflow
     inputs:
       mode:
         description: "Deployment mode: 'normal' or 'maintenance'"
@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist  # Výstup z build procesu
+          path: ./  # Cesta k souborům v rootu repozitáře
 
   deploy:
     needs: build
