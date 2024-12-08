@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   build:
-    if: ${{ inputs.mode == 'normal' }}
+    if: ${{ inputs.mode == 'normal' || github.event_name == 'push' }}
     runs-on: ubuntu-latest
     name: Build
     steps:
