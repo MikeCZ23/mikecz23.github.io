@@ -21,6 +21,7 @@ concurrency:
 
 jobs:
   build:
+    if: inputs.mode == 'normal'
     runs-on: ubuntu-latest
     name: Build
     steps:
@@ -44,11 +45,26 @@ jobs:
         with:
           path: .vitepress/dist
 
+  maintenance:
+    if: inputs.mode == 'maintenance'
+    runs-on: ubuntu-latest
+    name: Maintenance Mode
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Maintenance Page
+        run: |
+          echo '<html><body><h1>Maintenance Mode</h1><p>Our site is currently undergoing maintenance. Please check back later.</p></body></html>' > maintenance/index.html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: maintenance
+
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
+    needs: [build, maintenance]
     runs-on: ubuntu-latest
     name: Deploy
     steps:
