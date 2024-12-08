@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   build:
-    if: ${{ inputs.mode == 'normal' || github.event_name == 'push' }}
+    if: ${{ inputs.mode == 'normal' }}  # Tento job se spustí pouze v normálním režimu
     runs-on: ubuntu-latest
     name: Build (Normal Mode)
     steps:
@@ -43,10 +43,10 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: . # Nasazuje obsah z rootu, pokud je režim normal
+          path: .  # Nasazuje obsah z rootu, pokud je režim normal
 
   maintenance:
-    if: ${{ inputs.mode == 'maintenance' }}
+    if: ${{ inputs.mode == 'maintenance' }}  # Tento job se spustí pouze v režimu údržby
     runs-on: ubuntu-latest
     name: Deploy Maintenance Page
     steps:
@@ -55,11 +55,12 @@ jobs:
       - name: Upload Maintenance Page
         uses: actions/upload-pages-artifact@v3
         with:
-          path: maintenance # Nasazuje obsah složky maintenance, pokud je režim údržby
+          path: maintenance  # Nasazuje obsah složky maintenance, pokud je režim údržby
 
   deploy:
+    if: ${{ always() }}  # Tento job se spustí vždy, i když jsou předchozí joby přeskočeny
+    needs: [build, maintenance]  # Čeká na build nebo maintenance joby
     runs-on: ubuntu-latest
-    needs: [build, maintenance]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
