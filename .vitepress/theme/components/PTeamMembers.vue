@@ -65,6 +65,7 @@ defineProps<{
     color: var(--vp-c-text-3); /* Barva ikony */
     bottom: 6px;
     position: relative;
+    display: inline-block;
 }
 
 .role {
