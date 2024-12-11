@@ -341,6 +341,9 @@ html:not(.dark) img[data-mode="darkmode-only"] + figcaption {
   vertical-align: middle;
   transform: scaleY(-1);
 }
+svg.icon{
+	display: inline-block;
+}
 
 /* Progressbar */
 .prog-custom .el-progress.is-success .el-progress-bar__inner{
