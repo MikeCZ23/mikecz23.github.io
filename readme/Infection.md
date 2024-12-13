@@ -70,7 +70,7 @@ cesta: ..\Infection Free Zone_Data\StreamingAssets\Languages <br />
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/3mdvc1jdeqy25625qzs1s/Infection-Free-Zone-e-tina.rar?rlkey=xtw23oflo72tpmt9btffh9im3&st=dzpev8do&dl=1" target="_blank">Stáhnout</a> <br>
-<a href="https://lokalizace.net/cestina-do/infection-free-zone" target="_blank">Přejit ke stažení</a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg> <br> <!--1. listopad 2024-->
+<a href="https://lokalizace.net/cestina-do/infection-free-zone" target="_blank">Přejit ke stažení</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg> <br> <!--1. listopad 2024-->
 
 <el-divider />
 
