@@ -10,7 +10,7 @@ defineProps<{
             <div class="name">
                 <a v-if="member.url" :href="member.url" target="_blank" rel="noopener noreferrer">
                     <span v-html="member.name"></span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="icon"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
                 </a>
                 <span v-else v-html="member.name"></span>
             </div>
@@ -62,7 +62,7 @@ defineProps<{
     margin-left: 2px; /* Mezery mezi textem a ikonou */
     width: 16px; /* Šířka ikony */
     height: 16px; /* Výška ikony */
-    color: var(--vp-c-text-3); /* Barva ikony */
+    color: var(--vp-c-text-2); /* Barva ikony */
     bottom: 6px;
     position: relative;
 }
