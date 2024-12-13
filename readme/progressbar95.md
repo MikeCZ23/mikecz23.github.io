@@ -4,6 +4,7 @@ sidebar: false
 editLink: false
 lastUpdated: false
 publish: false
+outline: [2, 4]
 ---
 <script setup lang="ts">
 const people = {

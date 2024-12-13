@@ -5,6 +5,7 @@ author: MikeCZ
 publish: false
 editLink: false
 lastUpdated: false
+outline: [2, 4]
 ---
 
 # Hollow Knight: Silksong

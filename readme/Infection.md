@@ -6,6 +6,7 @@ editLink: false
 author: MikeCZ, Starsoul
 category: Češtiny
 publish: false
+outline: [2, 4]
 ---
 <script setup lang="ts">
 const people = {

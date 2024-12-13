@@ -10,6 +10,7 @@ tags:
   - Čeština
 category: Češtiny
 publish: false
+outline: [2, 4]
 ---
 <script setup lang="ts">
 const people = {
