@@ -341,8 +341,10 @@ html:not(.dark) img[data-mode="darkmode-only"] + figcaption {
   vertical-align: middle;
   transform: scaleY(-1);
 }
-svg.icon{
+svg.icons{
 	display: inline;
+  position: relative;
+  bottom: 5px;
 }
 
 /* Progressbar */
