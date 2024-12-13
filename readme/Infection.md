@@ -14,8 +14,7 @@ const people = {
     { name: "MikeCZ", role: "Vedení projektu, Překlad"}
   ],
   l10n: [
-    { name: "Starsoul", role: "Překlad", url: "https://lokalizace.net/tym/starsoul" },
-    { name: "Starsoul", role: "Korektura", url:"https://lokalizace.net/tym/starsoul" },
+    { name: "Starsoul", role: "Překlad, Korektura", url: "https://lokalizace.net/tym/starsoul" },
   ]
 };
 </script>
