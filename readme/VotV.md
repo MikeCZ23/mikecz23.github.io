@@ -18,10 +18,9 @@ const people = {
     { name: "MikeCZ", role: "Vedení projektu"}
   ],
   l10n: [
-    { name: "Hopes", role: "Překlad"},
+    { name: "Hopes", role: "Překlad, Korektura"},
     { name: "Redpomp55", role: "Překlad"},
     { name: "Metroxx", role: "Překlad"},
-    { name: "Hopes", role: "Korektura"},
   ],
   support: [
     { name: "termit", role: "Technika, fonty"},
