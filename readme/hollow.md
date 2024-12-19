@@ -19,12 +19,11 @@ const people = {
   l10n: [
     { name: "Toasat165", role: "Překlad"},
     { name: "DesoloSVK", role: "Překlad"},
-    { name: "UwU-master", role: "Překlad"},
+    { name: "UwU-master", role: "Překlad, Korektura"},
     { name: "LucianoLukin", role: "Překlad"},
     { name: "Yohnny", role: "Překlad"},
     { name: "Atoschi", role: "Překlad"},
     { name: "Manz_z", role: "Překlad, Korektura"},
-    { name: "UwU-master", role: "Korektura"},
     { name: "SeymoreClavage", role: "Korektura"},
     { name: "Bendalf21", role: "Korektura"},
   ],
