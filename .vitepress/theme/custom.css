@@ -219,8 +219,13 @@ img{
   background-color: var(--card-early);
 }
 
-h1.name{
-  filter: drop-shadow(rgba(0, 0, 0, 0.5) 2px 2px 3px);
+.hero-content .name{
+  filter: drop-shadow(rgba(0, 0, 0, 0.5) 2px 2px 2px);
+}
+.hero-content .text {
+  background: linear-gradient(90deg, red, orange, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner img{
