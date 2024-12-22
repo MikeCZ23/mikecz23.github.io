@@ -75,8 +75,8 @@ body::before {
   z-index: -1;
 }
 
-.aside-curtain[data-v-e6f2a212]{
-  background: transparent;
+.aside-curtain{
+  background: transparent !important;
 }
 
 .content-container {
