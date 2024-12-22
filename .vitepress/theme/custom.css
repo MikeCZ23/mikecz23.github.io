@@ -75,11 +75,13 @@ body::before {
   z-index: -1;
 }
 
+/* spodek levého sidebaru */
 .aside-curtain{
   background: transparent !important;
 }
 
-.content-container {
+/* rozmazani podkladu kvuli pozadí */
+.content-container { 
 	backdrop-filter: blur(10px);
   /* background: rgba(255, 255, 255, 0.1); */
 }
