@@ -52,15 +52,15 @@ const colors = ['transparent', '#1549e6', '#f00'];
 
 @keyframes glowing {
   0% {
-    filter: blur(18px);
+    filter: blur(18px) hue-rotate(0deg);
   }
 
   50% {
-    filter: blur(12px);
+    filter: blur(12px) hue-rotate(180deg);
   }
 
   100% {
-    filter: blur(18px);
+    filter: blur(18px) hue-rotate(360deg);
   }
 }
 
