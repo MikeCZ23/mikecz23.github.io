@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XUnity.TextExtractor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0078D4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .button {
+            background-color: #5094fa;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #4682B4;
+        }
+        .toggle-button {
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .toggle-on {
+            background-color: green;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .folder-button {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>XUnity.TextExtractor</h1>
+        <div id="main-menu">
+            <button class="button" onclick="startProgram()">Spustit program</button>
+            <button class="button" onclick="openSettings()">Nastavení</button>
+            <button class="button" onclick="exitProgram()">Ukončit</button>
+        </div>
+
+        <div id="settings-menu" style="display: none;">
+            <h2>Nastavení</h2>
+            <label for="separator-toggle">Dialog oddělovače:</label>
+            <button id="separator-toggle" class="toggle-button" onclick="toggleSeparator()">Vypnuto</button>
+            <br><br>
+            <label for="folder-path">Cesta k souborům:</label>
+            <input type="text" id="folder-path" value="Výchozí složka" readonly>
+            <button class="folder-button" onclick="selectFolder()">📂</button>
+            <br><br>
+            <button class="button" onclick="saveSettings()">Uložit a zpět</button>
+        </div>
+    </div>
+
+    <script>
+        let separatorDialog = false; // Výchozí stav oddělovače (vypnuto)
+
+        function startProgram() {
+            alert("Program spuštěn!");
+        }
+
+        function openSettings() {
+            document.getElementById("main-menu").style.display = "none";
+            document.getElementById("settings-menu").style.display = "block";
+        }
+
+        function saveSettings() {
+            document.getElementById("main-menu").style.display = "block";
+            document.getElementById("settings-menu").style.display = "none";
+        }
+
+        function toggleSeparator() {
+            separatorDialog = !separatorDialog;
+            const toggleButton = document.getElementById("separator-toggle");
+            if (separatorDialog) {
+                toggleButton.textContent = "Zapnuto";
+                toggleButton.classList.add("toggle-on");
+            } else {
+                toggleButton.textContent = "Vypnuto";
+                toggleButton.classList.remove("toggle-on");
+            }
+        }
+
+        function selectFolder() {
+            // Tento příklad simuluje výběr složky, skutečný výběr není přímo podporován v čistém JS
+            const folderPath = prompt("Zadejte cestu k souborům:", "C:\\VýchozíSložka");
+            if (folderPath) {
+                document.getElementById("folder-path").value = folderPath;
+            }
+        }
+
+        function exitProgram() {
+            alert("Program ukončen!");
+        }
+    </script>
+</body>
+</html>
