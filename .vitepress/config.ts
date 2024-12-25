@@ -171,6 +171,8 @@ export default defineConfig({
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"},
           { text: 'Infection Free Zone', link: '/readme/Infection', activeMatch: "/Infection/"}]},
+      { text: '<img src="" width="15px" height="15px"> Software', items: [
+        	{ text: " ", link: " ", activeMatch: " "}]},
  //       { text: 'Pertim', items: [
  //         { text: "Summer of 58", link: "/readme/summer", activeMatch: "/summer/"},
  //         { text: "Silver Chains", link: "/readme/silcha", activeMatch: "/silcha/" },
