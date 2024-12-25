@@ -171,7 +171,7 @@ export default defineConfig({
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"},
           { text: 'Infection Free Zone', link: '/readme/Infection', activeMatch: "/Infection/"}]},
-      { text: 'Software', items: [
+      { text: '🛠️ Software', items: [
         	{ text: "‎WIP", link: " ", activeMatch: " "}]},
  //       { text: 'Pertim', items: [
  //         { text: "Summer of 58", link: "/readme/summer", activeMatch: "/summer/"},
