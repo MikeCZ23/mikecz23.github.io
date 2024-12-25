@@ -172,7 +172,7 @@ export default defineConfig({
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"},
           { text: 'Infection Free Zone', link: '/readme/Infection', activeMatch: "/Infection/"}]},
       { text: '🛠️ Software', items: [
-        	{ text: "‎WIP", link: " ", activeMatch: " "}]},
+        	{ text: "‎XUnity.StringProcessor (WIP)", link: " ", activeMatch: " "}]},
  //       { text: 'Pertim', items: [
  //         { text: "Summer of 58", link: "/readme/summer", activeMatch: "/summer/"},
  //         { text: "Silver Chains", link: "/readme/silcha", activeMatch: "/silcha/" },
