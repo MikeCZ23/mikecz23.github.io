@@ -27,7 +27,7 @@ outline: [2, 4]
 - Rozdělit soubor
 - Spojit soubory
 
-<img src="../public/Diagram bez názvu.drawio.svg"  width="70%" height="50%"> <br />
+<img src="../public/Diagram.svg"  width="70%" height="50%"> <br />
 
 ## Známé chyby
 - Antivir falešná detekce
