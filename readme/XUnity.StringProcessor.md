@@ -21,6 +21,8 @@ outline: [2, 4]
 </a></div></span> 
 <br>
 
+![](https://img.shields.io/badge/verze-1.5-grey?style=for-the-badge) 
+
 <!-- lorem impum lorem impum lorem impum lorem impum -->
 
 ## Funkce
@@ -40,5 +42,6 @@ Názvy souborů máš v obrázku.
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" target="_self">Stáhnout</a> <br>
+26.12.2024
 
 <hr>
