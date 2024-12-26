@@ -1,8 +1,44 @@
 ---
+title: Xunity.StringProcessor
 sidebar: false
 lastUpdated: false
 editLink: false
 author: MikeCZ
+category: Tools
 publish: false
 outline: [2, 4]
 ---
+<div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px;">
+  <img src="https://as2.ftcdn.net/v2/jpg/03/67/89/85/1000_F_367898595_6pz7ALMD0fSZZGlF2sEvblrxV03Hue7r.jpg">
+</div>
+
+# Xunity.StringProcessor
+<span class="page-tag-info" aria-label="Tag🏷" data-balloon-pos="up">
+<svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="tag icon" name="tag"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg>
+<div style="max-width: 600px" class="tag-custom page-tag-item">
+<a href="" class="blue">
+<el-tag type="warning" effect="light">Tools</el-tag>
+</a></div></span> 
+<br>
+
+<!-- lorem impum lorem impum lorem impum lorem impum -->
+
+## Funkce
+- Rozdělit soubor
+- Spojit soubory
+
+<img src="../public/Diagram bez názvu.drawio.svg"  width="70%" height="50%"> <br />
+
+## Známé chyby
+- Antivir falešná detekce
+
+<hr>
+
+### Instalace
+Vlož do stejné složky kde jsou soubory na které to chceš aplikovat. <br>
+Názvy souborů máš v obrázku.
+
+## Ke stažení
+<a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" target="_self">Stáhnout</a> <br>
+
+<hr>
