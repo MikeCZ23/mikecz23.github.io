@@ -35,6 +35,7 @@ Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jse
 
 ## Známé chyby
 - Antivir falešná detekce
+- Neumím programovat takže to není dokonalé, ale práci to splní
 <hr>
 
 ### Instalace
