@@ -23,7 +23,8 @@ outline: [2, 4]
 
 ![](https://img.shields.io/badge/verze-1.5-grey?style=for-the-badge) 
 
-<!-- lorem impum lorem impum lorem impum lorem impum -->
+------------
+Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jsem ho, abych si usnadnil práci s XUnity.AutoTranslator.
 
 ## Funkce
 - Rozdělit soubor
@@ -38,7 +39,7 @@ outline: [2, 4]
 
 ### Instalace
 Vlož do stejné složky kde jsou soubory na které to chceš aplikovat. <br>
-Názvy souborů máš v obrázku.
+Názvy souborů máš v obrázku. <a href="#funkce"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" target="_self">Stáhnout</a> <br>
