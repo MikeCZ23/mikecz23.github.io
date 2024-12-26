@@ -33,7 +33,6 @@ outline: [2, 4]
 
 ## Známé chyby
 - Antivir falešná detekce
-
 <hr>
 
 ### Instalace
