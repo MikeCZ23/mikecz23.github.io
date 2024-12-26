@@ -28,6 +28,7 @@ outline: [2, 4]
 ## Funkce
 - Rozdělit soubor
 - Spojit soubory
+- Možnost volby oddělovače (výchozí `=`)
 
 <img src="../public/Diagram.svg"  width="70%" height="50%"> <br />
 
