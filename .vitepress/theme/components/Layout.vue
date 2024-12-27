@@ -45,7 +45,7 @@ const { frontmatter, title } = useData();
 
     <!-- Nominační tlačítko -->
     <a class="viteconf" href="https://viteconf.org/24/replay?utm=vite-sidebar" target="_blank">
-      <img width="22" height="22" src="../../../docs/public/icon.png" alt="ViteConf Logo"> 
+      <img width="22" height="22" src="../../../public/icon.png" alt="ViteConf Logo"> 
       <span>
         <p class="extra-info">Děkujeme za přízeň</p>
         <p class="heading">PF 2024/2025</p>
