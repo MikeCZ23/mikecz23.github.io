@@ -21,7 +21,7 @@ outline: [2, 4]
 </a></div></span> 
 <br>
 
-![](https://img.shields.io/badge/verze-1.5-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze-1.5-blue?style=for-the-badge) 
 
 ------------
 Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jsem ho, abych si usnadnil práci s XUnity.AutoTranslator.
