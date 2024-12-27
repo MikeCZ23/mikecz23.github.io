@@ -35,12 +35,12 @@ Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jse
 
 ## Známé chyby
 - Antivir falešná detekce
-- Neumím programovat takže to není dokonalé, ale práci to splní
+- Není to dokonalé, ale práci to splní
 <hr>
 
 ### Instalace
-Vlož do stejné složky kde jsou soubory na které to chceš aplikovat. <br>
-Názvy souborů máš v obrázku. <a href="#funkce"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
+- Vlož do stejné složky kde jsou soubory na které to chceš aplikovat. <br>
+- Názvy souborů máš v obrázku. <a href="#funkce"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" target="_self">Stáhnout</a> [<a href="https://github.com/MikeCZ23/mikecz23.github.io/blob/main/readme/software/XUnity.StringProcessor.py" target="_blank">Source Code</a>] <br>
