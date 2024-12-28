@@ -1,0 +1,17 @@
+{
+    "normalLinks": [
+      { "url": " ", "imgSrc": " ", "alt": " " },
+      { "url": " ", "imgSrc": " ", "alt": " " }
+    ],
+    "groupedLinks": [
+      [
+        { "url": " ", "imgSrc": " ", "alt": " " },
+        { "url": " ", "imgSrc": " ", "alt": " " }
+      ],
+      [
+        { "url": " ", "imgSrc": " ", "alt": " " },
+        { "url": " ", "imgSrc": " ", "alt": " " }
+      ]
+    ]
+  }
+  
