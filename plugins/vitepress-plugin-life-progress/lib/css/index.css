@@ -57,7 +57,7 @@
     justify-content:space-between;
     transition:.5s;
   max-width: 100vw; /* Zabrání překročení šířky obrazovky */
-    left: 20px; /* Začátek na levém okraji */
+    left: -20px; /* Začátek na levém okraji */
     right: 0; /* Zajištění konce na pravém okraji */
 }
 .life-progress ul li .label-box .day{
