@@ -250,4 +250,10 @@ export default {
   width: calc(50% - 2.5px);
   height: 64px;
 }
+
+.panel-row .panel-image {
+  max-width: calc(100% - 0px);
+  padding: 0px;
+  height: auto;
+}
 </style>
