@@ -1,17 +1,9 @@
 {
     "normalLinks": [
-      { "url": " ", "imgSrc": " ", "alt": " " },
-      { "url": " ", "imgSrc": " ", "alt": " " }
-    ],
-    "groupedLinks": [
-      [
-        { "url": " ", "imgSrc": " ", "alt": " " },
-        { "url": " ", "imgSrc": " ", "alt": " " }
-      ],
-      [
-        { "url": " ", "imgSrc": " ", "alt": " " },
-        { "url": " ", "imgSrc": " ", "alt": " " }
-      ]
+      { "url": "https://elitehub.eu/", "imgSrc": "https://elitehub.eu/images/logo.png", "alt": " ", "label": " ", "class": "top" },
+      { "url": "https://komunitni-preklady.org/", "imgSrc": "https://komunitni-preklady.org/img/logo.svg", "alt": " ", "label": " " },
+      { "url": "https://lokalizace.net/", "imgSrc": "https://lokalizace.net/images/logo_main_2.webp", "alt": " ", "label": " " },
+      { "url": "https://hernipreklady.cz/", "imgSrc": "https://hernipreklady.cz/images/banners/logo2.png", "alt": " ", "label": " ", "class": "bottom" }
     ]
-  }
+}
   
