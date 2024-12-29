@@ -2,6 +2,7 @@
 import HomeHeroComponent from "./HomeHeroComponent.vue";
 import DefaultTheme from 'vitepress/theme';
 import Giscus from '@giscus/vue';
+import links from '../../../odkazy.json';
 
 const { Layout } = DefaultTheme;
 const { frontmatter, title } = useData();
@@ -40,55 +41,34 @@ const { frontmatter, title } = useData();
 
     <!-- Spodní panel -->
     <template #aside-bottom>
-    <div class="sponsor-panel">
-    <div class="panel-title">Může vás zajímat</div>
+      <div class="sponsor-panel">
+      <div class="panel-title">Může vás zajímat</div>
 
-    <!-- Nominační tlačítko -->
-    <a class="viteconf" href="https://www.novorocenky.cz/pf2025/Novorocenka-PF2025-3141216026-102797.html" target="_blank">
-      <img width="22" height="22" src="../../../public/icon.png" alt="ViteConf Logo"> 
-      <span>
-        <p class="extra-info">Děkujeme za přízeň</p>
-        <p class="heading">PF 2024/2025</p>
-        <p class="extra-info">Focus on the next content!</p>
-      </span>
-    </a>
+      <!-- Nominační tlačítko -->
+      <a class="viteconf" href="https://www.novorocenky.cz/pf2025/Novorocenka-PF2025-3141216026-102797.html" target="_blank">
+        <img width="22" height="22" src="../../../public/icon.png" alt="ViteConf Logo"> 
+        <span>
+          <p class="extra-info">Děkujeme za přízeň</p>
+          <p class="heading">PF 2024/2025</p>
+          <p class="extra-info">Focus on the next content!</p>
+        </span>
+      </a>
     
-    <!-- Obrázky s odkazy -->
-    <a href="" class="panel-button top">
-      <img src="" alt="" class="panel-image">
-      <!-- <span></span> -->
-    </a>
-    <a href="" class="panel-button">
-      <img src="" alt="" class="panel-image">
-      <!-- <span></span> -->
-    </a>
-    <a href="" class="panel-button">
-      <img src="" alt="" class="panel-image">
-      <!-- <span></span> -->
-    </a>
-    <a href="" class="panel-button">
-      <img src="" alt="" class="panel-image">
-      <!-- <span style="color:yellow;font-weight:bold;"></span> -->
-    </a>
+      <!-- Obrázky s odkazy -->
+        <a v-for="link in links.normalLinks" :key="link.url" :href="link.url" class="panel-button" :class="link.class">
+          <img :src="link.imgSrc" :alt="link.alt" class="panel-image" :class="link.class" />
+          <!-- <span>{{ link.label }}</span> -->
+        </a>
 
-    <!-- Řádek s více poly -->
-    <div class="panel-row">
-      <a href="" class="panel-button">
-        <img src="" alt="" class="panel-image">
-        <span></span></a>
-      <a href="" class="panel-button">
-        <img src="" alt="" class="panel-image">
-        <span></span></a>
-      <a href="" target="_blank" class="panel-button"></a>
-      <a href="" target="_blank" class="panel-button"></a>
-      <a href="" target="_blank" class="panel-button"></a>
-      <a href="" target="_blank" class="panel-button"></a>
-    </div>
-
-    <!-- Další tlačítka -->
-    <a href="" class="panel-button"></a>
-    <a href="" class="panel-button bottom"></a>
-    </div>
+      <!-- Řádek s více poly -->
+      <div v-for="(group, index) in links.groupedLinks" :key="'row-' + index" class="panel-row">
+        <a v-for="link in group" :key="link.url" :href="link.url" class="panel-button" :class="link.class">
+          <img :src="link.imgSrc" :alt="link.alt" class="panel-image" :class="link.class" />
+          <!-- <span>{{ link.label }}</span> -->
+        </a>
+      </div>
+    
+      </div>
     </template>
   </Layout>
 </template>
@@ -183,7 +163,7 @@ export default {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 5px; /* odsazení mezi odkazy */
 }
 
 .sponsor-button {
@@ -207,16 +187,17 @@ export default {
   outline: none;
 }
 
-/* První položka - horní zaoblené rohy */
 .panel-button.top {
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    border-radius: 14px 14px 0 0;
 }
-
-/* Poslední položka - dolní zaoblené rohy */
 .panel-button.bottom {
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-radius: 0 0 14px 14px;
+}
+.panel-row:last-of-type .panel-button:first-child {
+  border-radius: 0 0 0 14px;
+}
+.panel-row:last-of-type .panel-button:last-child {
+  border-radius: 0 0 14px 0;
 }
 
 .panel-button {
@@ -232,6 +213,7 @@ export default {
   /* border: 1px solid #444; */
   border-radius: 0px;
   transition: background-color 0.3s;
+  overflow: hidden;
   /* line-height: 1; /* Zajistí, že výška textu nebude nadměrná */
 }
 
@@ -241,19 +223,21 @@ export default {
   outline: none;
 }
 
+.panel-button span {
+  font-size: 0.8rem;
+  color: gray;
+  /* margin-top: 0.5rem; */
+  text-align: center;
+  display: block;
+}
+
 .panel-image {
-  max-width: 120px; /* Nastaví velikost obrázku */
+  max-width: calc(100% - 40px); /* Nastaví velikost obrázku */
   height: auto; /* Automatická výška */
   display: block; /* Odstraní výchozí mezeru u inline obrázků */
   margin: 0 auto;
-  padding: 10px;
-}
-
-.panel-image.mini{
-  max-width: 180px;
-}
-.panel-image.minis{
-  max-width: 70px;
+  padding: 20px;
+  object-fit: cover; /* nebo contain, podle potřeby */
 }
 
 .panel-row {
