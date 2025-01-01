@@ -33,7 +33,7 @@ Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jse
   
 <img src="../public/Diagram.svg"  width="70%" height="50%"> <br />
 
-- Soubor `prelozit.txt` musí být vždy originální beze změny. Pracuje se s `prelozeno.txt`.  
+- Soubor `prelozit.txt` musí být vždy originální beze změny. Pracuje se s `prelozeno.txt`
 
 ## Známé chyby
 - Antivir falešná detekce
