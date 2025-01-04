@@ -82,7 +82,8 @@ zpřístupňován za těchto licenčních podmínek.
      WIPO o autorském právu přijaté 20. prosince 1996 a/nebo obdobných mezinárodních dohod.
 
   d. Výjimkami a omezeními se rozumí poctivé užití („fair use“), poctivé zacházení („fair dealing“) a/nebo 
-     jakákoli další výjimka nebo omezení Autorských a obdobných práv, uplatňující se na Vaše užití Licencovaného obsahu.
+     jakákoli další výjimka nebo omezení Autorských a obdobných práv, uplatňující se na Vaše užití 
+     Licencovaného obsahu.
 
   e. Licencovaným obsahem se rozumí umělecké nebo literární dílo, databáze nebo jiný obsah, k němuž 
      Poskytovatel poskytuje tuto Veřejnou licenci.
@@ -97,7 +98,8 @@ zpřístupňován za těchto licenčních podmínek.
   h. Nekomerčním se rozumí nikoliv prvotně zamýšlený nebo určený pro získání obchodního prospěchu 
      či peněžitého plnění. Pro účely této Veřejné licence se výměna Licencovaného obsahu za jiný 
      obsah, na který se vztahují Autorská nebo obdobná práva, prostřednictvím digitálního sdílení 
-     souborů nebo obdobným způsobem považuje za Nekomerční, pokud taková výměna není spojena s peněžitým plněním.
+     souborů nebo obdobným způsobem považuje za Nekomerční, pokud taková výměna není spojena s peněžitým 
+     plněním.
 
   i. Sdílením se rozumí poskytnutí obsahu veřejnosti jakýmkoli způsobem či prostředkem vyžadujícím 
      ve smyslu Licencovaných práv svolení, jako například rozmnožování, veřejné vystavování, 
@@ -106,7 +108,8 @@ zpřístupňován za těchto licenčních podmínek.
 
   j. Zvláštními právy pořizovatele databáze se rozumí jiná než autorská práva plynoucí ze 
      Směrnice Evropského parlamentu a Rady 96/9/ES z 11. března 1996 o právní ochraně databází, 
-     ve znění pozdějších či nahrazujících předpisů, jakož i další v zásadě rovnocenná práva kdekoli na světě.
+     ve znění pozdějších či nahrazujících předpisů, jakož i další v zásadě rovnocenná práva kdekoli na 
+     světě.
 
   k. Vy, Vám, Vámi, Vás označuje fyzickou nebo právnickou osobu, vykonávající Licencovaná práva na 
      základě této Veřejné licence. Vaše, Vašeho, Vašemu, Vašich, Vaším má obdobný význam.
@@ -114,66 +117,94 @@ zpřístupňován za těchto licenčních podmínek.
 
 Článek 2 – Rozsah.
 
-a. Poskytnutí licence .
+  a. Poskytnutí licence .
   
-1. Za podmínek stanovených touto Veřejnou licencí Vám Poskytovatel poskytuje celosvětovou, bezúplatnou, nevýhradní, neodvolatelnou licenci, bez možnosti udělení podlicence, k výkonu Licencovaných práv k Licencovanému obsahu tímto způsobem a v tomto rozsahu:
+    1. Za podmínek stanovených touto Veřejnou licencí Vám Poskytovatel poskytuje celosvětovou, 
+       bezúplatnou, nevýhradní, neodvolatelnou licenci, bez možnosti udělení podlicence, k 
+       výkonu Licencovaných práv k Licencovanému obsahu tímto způsobem a v tomto rozsahu:
     
-a. rozmnožování a Sdílení Licencovaného obsahu jako celku nebo jeho části, a to pouze pro Nekomerční účely; a
+       a. rozmnožování a Sdílení Licencovaného obsahu jako celku nebo jeho části, a to pouze 
+      pro Nekomerční účely; a
       
-b. vytváření a rozmnožováni, nikoliv však Sdílení, Zpracovaného obsahu výhradně pro Nekomerční účely.
+       b. vytváření a rozmnožováni, nikoliv však Sdílení, Zpracovaného obsahu výhradně pro 
+      Nekomerční účely.
       
-2. Výjimky a omezení . Pro vyloučení pochybností, pokud se na Vaše užití uplatňují Výjimky a omezení, neuplatňuje se tato Veřejná licence a nemusíte dodržovat její podmínky.
+    2. Výjimky a omezení . Pro vyloučení pochybností, pokud se na Vaše užití uplatňují Výjimky 
+       a omezení, neuplatňuje se tato Veřejná licence a nemusíte dodržovat její podmínky.
     
-3. Doba trvání . Doba trvání této Veřejné licence je upravena v článku 6(a) .
+    3. Doba trvání . Doba trvání této Veřejné licence je upravena v článku 6(a) .
     
-4. Média a formáty; technické úpravy povoleny . Poskytovatel Vás opravňuje vykonávat Licencovaná práva prostřednictvím všech médií a formátů známých v tuto chvíli i vzniklých v budoucnu a provádět technické úpravy k tomu potřebné. Poskytovatel se vzdává práva zakázat Vám technické úpravy potřebné k výkonu Licencovaných práv, a to včetně technických úprav potřebných k obcházení Účinných technických prostředků a/nebo souhlasí s tím, že toto právo nebude vykonávat. Pro účely této Veřejné licence platí, že samotné úpravy povolené v tomto článku 2(a)(4) nikdy nevedou k vytvoření Zpracovaného obsahu.
+    4. Média a formáty; technické úpravy povoleny . Poskytovatel Vás opravňuje vykonávat 
+       Licencovaná práva prostřednictvím všech médií a formátů známých v tuto chvíli i 
+       vzniklých v budoucnu a provádět technické úpravy k tomu potřebné. Poskytovatel se 
+       vzdává práva zakázat Vám technické úpravy potřebné k výkonu Licencovaných práv, a 
+       to včetně technických úprav potřebných k obcházení Účinných technických prostředků 
+       a/nebo souhlasí s tím, že toto právo nebude vykonávat. Pro účely této Veřejné licence 
+       platí, že samotné úpravy povolené v tomto článku 2(a)(4) nikdy nevedou k vytvoření 
+       Zpracovaného obsahu.
     
-5. Další příjemci .
+    5. Další příjemci .
     
-a. Nabídka Poskytovatele – Licencovaný obsah . Každému příjemci Licencovaného obsahu je automaticky učiněna nabídka Poskytovatele k výkonu Licencovaných práv v souladu s podmínkami této Veřejné licence.
+       a. Nabídka Poskytovatele – Licencovaný obsah . Každému příjemci Licencovaného obsahu 
+         je automaticky učiněna nabídka Poskytovatele k výkonu Licencovaných práv v souladu 
+         s podmínkami této Veřejné licence.
       
-b. Žádná další omezení . Licencovaný obsah nesmíte nabízet za dalších či jiných podmínek, ani na něj uplatňovat Účinné technické prostředky, pokud by to omezovalo vykonávání Licencovaných práv jakýmkoli příjemcem Licencovaného obsahu.
+       b. Žádná další omezení . Licencovaný obsah nesmíte nabízet za dalších či jiných podmínek, 
+         ani na něj uplatňovat Účinné technické prostředky, pokud by to omezovalo vykonávání 
+         Licencovaných práv jakýmkoli příjemcem Licencovaného obsahu.
       
-6. Vyloučení podpory . Nic v této Veřejné licenci nezakládá ani nesmí být vykládáno jako povolení prohlašovat nebo naznačovat, že Vy nebo Vaše užití Licencovaného obsahu jste nějak podporování, schváleni, či propojeni s Poskytovatelem nebo kýmkoli jiným, kdo má být uveden dle článku 3(a)(1)(A)(i) , nebo že Vám byl z jejich strany udělen oficiální status.
+    6. Vyloučení podpory . Nic v této Veřejné licenci nezakládá ani nesmí být vykládáno jako 
+       povolení prohlašovat nebo naznačovat, že Vy nebo Vaše užití Licencovaného obsahu jste 
+       nějak podporování, schváleni, či propojeni s Poskytovatelem nebo kýmkoli jiným, kdo má 
+       být uveden dle článku 3(a)(1)(A)(i) , nebo že Vám byl z jejich strany udělen oficiální 
+       status.
     
-b. Další práva .
+  b. Další práva .
   
-1. Na osobnostní práva, jako například právo na nedotknutelnost, se tato Veřejná licence nevztahuje, stejně jako na právo na podobu a soukromí a/nebo další obdobná osobnostní práva; nicméně, k tomu, aby Vám umožnil vykonávat Licencovaná práva se Poskytovatel v nejširším možném rozsahu vzdává a/nebo se zavazuje je nevykonávat.
+    1. Na osobnostní práva, jako například právo na nedotknutelnost, se tato Veřejná licence 
+       nevztahuje, stejně jako na právo na podobu a soukromí a/nebo další obdobná osobnostní 
+       práva; nicméně, k tomu, aby Vám umožnil vykonávat Licencovaná práva se Poskytovatel v 
+       nejširším možném rozsahu vzdává a/nebo se zavazuje je nevykonávat.
     
-2. Tato Veřejná licence se nevztahuje na práva z patentu a ochranné známky.
+    2. Tato Veřejná licence se nevztahuje na práva z patentu a ochranné známky.
     
-3. Poskytovatel se v nejširším možném rozsahu vzdává veškerých práv, na jejichž základě od Vás může vybírat odměnu za vykonávání Licencovaných práv, ať už přímo či prostřednictvím kolektivního správce na základě jakéhokoli systému dobrovolné, rozšířené nebo povinné kolektivní správy. Ve všech ostatních případech si Poskytovatel výslovně vyhrazuje právo vybírat takovou odměnu, a to i v případě, že je Licencovaný obsah užít jinak než pro Nekomerční účely.
+    3. Poskytovatel se v nejširším možném rozsahu vzdává veškerých práv, na jejichž základě 
+       od Vás může vybírat odměnu za vykonávání Licencovaných práv, ať už přímo či prostřednictvím 
+       kolektivního správce na základě jakéhokoli systému dobrovolné, rozšířené nebo povinné 
+       kolektivní správy. Ve všech ostatních případech si Poskytovatel výslovně vyhrazuje 
+       právo vybírat takovou odměnu, a to i v případě, že je Licencovaný obsah užít jinak než 
+       pro Nekomerční účely.
 
     
 Článek 3 – Licenční podmínky.
 
 Vykonávání Vám Licencovaných práv zcela podléhá následujícím podmínkám.
 
-a. Uveďte původ .
+  a. Uveďte původ .
   
-1. Pokud Sdílíte Licencovaný obsah, musíte:
+    1. Pokud Sdílíte Licencovaný obsah, musíte:
 
-a. zachovat následující informace, pokud je Poskytovatel s Licencovaným obsahem uvedl:
+       a. zachovat následující informace, pokud je Poskytovatel s Licencovaným obsahem uvedl:
       
-i. identifikace tvůrce (tvůrců) Licencovaného obsahu a kohokoli dalšího, kdo má být uveden, a to jakýmkoli Poskytovatelem požadovaným způsobem (včetně pseudonymu, pokud je uveden), pokud je tento způsob rozumný;
+          i. identifikace tvůrce (tvůrců) Licencovaného obsahu a kohokoli dalšího, kdo má být uveden, a to jakýmkoli Poskytovatelem požadovaným způsobem (včetně pseudonymu, pokud je uveden), pokud je tento způsob rozumný;
         
-ii. výhradu autorského práva;
+          ii. výhradu autorského práva;
         
-iii. odkaz na tuto Veřejnou licenci;
+          iii. odkaz na tuto Veřejnou licenci;
         
-iv. odkaz na vyloučení záruk;
+          iv. odkaz na vyloučení záruk;
         
-v. URI nebo hypertextový odkaz na Licencovaný obsah, pokud je to rozumně proveditelné;
+          v. URI nebo hypertextový odkaz na Licencovaný obsah, pokud je to rozumně proveditelné;
         
-b. uvést informace o případné úpravě Licencovaného obsahu a zachovat veškeré zmínky o předchozích úpravách; a
+       b. uvést informace o případné úpravě Licencovaného obsahu a zachovat veškeré zmínky o předchozích úpravách; a
       
-c. uvést, že Licencovaný obsah je licencován v souladu s touto Veřejnou licencí a uvést její text či URI nebo hypertextový odkaz na tuto Veřejnou licenci.
+       c. uvést, že Licencovaný obsah je licencován v souladu s touto Veřejnou licencí a uvést její text či URI nebo hypertextový odkaz na tuto Veřejnou licenci.
       
 Pro vyloučení pochybností, na základě těchto licenčních podmínek nemáte svolení Sdílet Zpracovaný materiál.
 
-2. V závislosti na médiu, způsobu a kontextu ve kterém Licencovaný obsah sdílíte, můžete podmínky stanovené v článku 3(a)(1) splnit jakýmkoli přiměřeným způsobem. Za přiměřené lze například považovat splnění podmínek tím, že je uvedeno URI nebo hypertextový odkaz na zdroj, který obsahuje požadované informace.
+    2. V závislosti na médiu, způsobu a kontextu ve kterém Licencovaný obsah sdílíte, můžete podmínky stanovené v článku 3(a)(1) splnit jakýmkoli přiměřeným způsobem. Za přiměřené lze například považovat splnění podmínek tím, že je uvedeno URI nebo hypertextový odkaz na zdroj, který obsahuje požadované informace.
     
-3. Pokud to Poskytovatel požaduje, musíte odstranit jakékoli informace požadované dle článku 3(a)(1)(A) v rozumně proveditelném rozsahu.
+    3. Pokud to Poskytovatel požaduje, musíte odstranit jakékoli informace požadované dle článku 3(a)(1)(A) v rozumně proveditelném rozsahu.
 
    
 Článek 4 – Zvláštní práva pořizovatele databáze.
