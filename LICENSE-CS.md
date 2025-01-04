@@ -8,11 +8,21 @@ Uveďte původ-Neužívejte komerčně-Nezpracovávejte 4.0 Mezinárodní
 
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") není advokátní kancelář ani neposkytuje právní služby nebo právní poradenství. Šířením textů veřejných licencí Creative Commons nevzniká vztah příkazního typu nebo jiný takový obdobný vztah. Creative Commons Corporation poskytuje texty veřejných licencí a související informace tak, jak jsou. Creative Commons Corporation neodpovídá za texty veřejných licencí ani za obsah licencovaný za těchto licenčních podmínek ani za související informace. Creative Commons Corporation v maximální možné míře vylučuje veškerou odpovědnost za újmu, která vznikne v důsledku jejich použití.
+Creative Commons Corporation ("Creative Commons") není advokátní kancelář ani neposkytuje 
+právní služby nebo právní poradenství. Šířením textů veřejných licencí Creative Commons 
+nevzniká vztah příkazního typu nebo jiný takový obdobný vztah. Creative Commons Corporation 
+poskytuje texty veřejných licencí a související informace tak, jak jsou. Creative Commons Corporation 
+neodpovídá za texty veřejných licencí ani za obsah licencovaný za těchto licenčních podmínek ani 
+za související informace. Creative Commons Corporation v maximální možné míře vylučuje veškerou 
+odpovědnost za újmu, která vznikne v důsledku jejich použití.
 
 Používání Veřejných licencí Creative Commons
 
-Texty veřejných licencí Creative Commons představují standardizovaný soubor licenčních podmínek, které mohou autoři nebo další nositelé práv použít pro sdílení chráněných autorských děl a dalšího obsahu podléhajícímu autorským právům a dalším právům uvedeným níže v této veřejné licenci. Následující upozornění slouží pouze pro informační účely, nejsou vyčerpávající a nejsou součástí těchto licencí.
+Texty veřejných licencí Creative Commons představují standardizovaný soubor licenčních podmínek, 
+které mohou autoři nebo další nositelé práv použít pro sdílení chráněných autorských děl a dalšího 
+obsahu podléhajícímu autorským právům a dalším právům uvedeným níže v této veřejné licenci. 
+Následující upozornění slouží pouze pro informační účely, nejsou vyčerpávající a nejsou součástí 
+těchto licencí.
 
      Upozornění pro poskytovatele licence: Tyto veřejné licence jsou určeny 
      osobám oprávněným poskytovat veřejnosti oprávnění k užití obsahu způsobem, 
@@ -44,31 +54,62 @@ Texty veřejných licencí Creative Commons představují standardizovaný soubo
 =======================================================================
 
 Uveďte původ-Neužívejte komerčně-Nezpracovávejte 4.0 Mezinárodní
-Výkonem Licencovaných práv (jak jsou definována níže) souhlasíte s licenčními podmínkami Creative Commons Uveďte původ-Neužívejte komerčně-Nezpracovávejte 4.0 Mezinárodní veřejná licence (dále jen „Veřejná licence“) a zavazujete se je dodržovat. V rozsahu, v jakém lze tuto Veřejnou licenci chápat jako smlouvu, je Vám oprávnění vykonávat Licencovaná práva uděleno jako protiplnění za Váš souhlas s těmito licenčními podmínkami. Poskytovatel Vám toto oprávnění poskytuje jako protiplnění za výhody, které pro něj vyplývají z toho, že je Licencovaný obsah zpřístupňován za těchto licenčních podmínek.
+Výkonem Licencovaných práv (jak jsou definována níže) souhlasíte s licenčními podmínkami 
+Creative Commons Uveďte původ-Neužívejte komerčně-Nezpracovávejte 4.0 Mezinárodní veřejná 
+licence (dále jen „Veřejná licence“) a zavazujete se je dodržovat. V rozsahu, v jakém lze 
+tuto Veřejnou licenci chápat jako smlouvu, je Vám oprávnění vykonávat Licencovaná práva uděleno 
+jako protiplnění za Váš souhlas s těmito licenčními podmínkami. Poskytovatel Vám toto oprávnění 
+poskytuje jako protiplnění za výhody, které pro něj vyplývají z toho, že je Licencovaný obsah 
+zpřístupňován za těchto licenčních podmínek.
 
 Článek 1 - Definice.
 
-a. Zpracovaným obsahem se rozumí obsah, na který se vztahují Autorská a obdobná práva, který je odvozený od Licencovaného obsahu, nebo z něj vychází, a v němž je Licencovaný obsah přeložen, pozměněn, uspořádán, změněn nebo jinak upraven způsobem vyžadujícím svolení Poskytovatele. Pro účely této Veřejné licence platí, že pokud je Licencovaným obsahem hudební dílo, výkon výkonného umělce nebo zvukový záznam, je vždy vytvořen Zpracovaný obsah v případě, že je Licencovaný obsah časově synchronně spojen s pohyblivou obrazovou složkou.
+  a. Zpracovaným obsahem se rozumí obsah, na který se vztahují Autorská a obdobná práva, který 
+     je odvozený od Licencovaného obsahu, nebo z něj vychází, a v němž je Licencovaný obsah přeložen, 
+     pozměněn, uspořádán, změněn nebo jinak upraven způsobem vyžadujícím svolení Poskytovatele. 
+     Pro účely této Veřejné licence platí, že pokud je Licencovaným obsahem hudební dílo, výkon 
+     výkonného umělce nebo zvukový záznam, je vždy vytvořen Zpracovaný obsah v případě, že je 
+     Licencovaný obsah časově synchronně spojen s pohyblivou obrazovou složkou.
 
-b. Autorskými a obdobnými právy se rozumí autorská práva a/nebo obdobná práva, úzce související s právem autorským, zahrnující mimo jiné, nikoliv však výlučně, práva k výkonu výkonného umělce, práva vysílatele, práva výrobce zvukového záznamu a zvláštní práva pořizovatele databáze, bez ohledu na to, jak jsou tato práva označena nebo kategorizována. Pro účely této Veřejné licence nespadají práva uvedená v článku 2(b)(1)-(2) mezi Autorská a obdobná práva.
+  b. Autorskými a obdobnými právy se rozumí autorská práva a/nebo obdobná práva, úzce související s 
+     právem autorským, zahrnující mimo jiné, nikoliv však výlučně, práva k výkonu výkonného umělce, 
+     práva vysílatele, práva výrobce zvukového záznamu a zvláštní práva pořizovatele databáze, bez 
+     ohledu na to, jak jsou tato práva označena nebo kategorizována. Pro účely této Veřejné licence 
+     nespadají práva uvedená v článku 2(b)(1)-(2) mezi Autorská a obdobná práva.
 
-c. Účinnými technickými prostředky se rozumí takové prostředky, které nelze bez příslušného oprávnění obejít, dle předpisů, které byly přijaty za účelem splnění závazků vyplývajících z článku 11 Smlouvy WIPO o autorském právu přijaté 20. prosince 1996 a/nebo obdobných mezinárodních dohod.
+  c. Účinnými technickými prostředky se rozumí takové prostředky, které nelze bez příslušného oprávnění 
+     obejít, dle předpisů, které byly přijaty za účelem splnění závazků vyplývajících z článku 11 Smlouvy 
+     WIPO o autorském právu přijaté 20. prosince 1996 a/nebo obdobných mezinárodních dohod.
 
-d. Výjimkami a omezeními se rozumí poctivé užití („fair use“), poctivé zacházení („fair dealing“) a/nebo jakákoli další výjimka nebo omezení Autorských a obdobných práv, uplatňující se na Vaše užití Licencovaného obsahu.
+  d. Výjimkami a omezeními se rozumí poctivé užití („fair use“), poctivé zacházení („fair dealing“) a/nebo 
+     jakákoli další výjimka nebo omezení Autorských a obdobných práv, uplatňující se na Vaše užití Licencovaného obsahu.
 
-e. Licencovaným obsahem se rozumí umělecké nebo literární dílo, databáze nebo jiný obsah, k němuž Poskytovatel poskytuje tuto Veřejnou licenci.
+  e. Licencovaným obsahem se rozumí umělecké nebo literární dílo, databáze nebo jiný obsah, k němuž 
+     Poskytovatel poskytuje tuto Veřejnou licenci.
 
-f. Licencovanými právy se rozumí práva, k jejichž výkonu je Vám uděleno oprávnění za podmínek stanovených touto Veřejnou licencí, která se omezují na veškerá Autorská a obdobná práva, vztahující se na Vaše užití Licencovaného obsahu a která je Poskytovatel oprávněn licencovat.
+  f. Licencovanými právy se rozumí práva, k jejichž výkonu je Vám uděleno oprávnění za podmínek 
+     stanovených touto Veřejnou licencí, která se omezují na veškerá Autorská a obdobná práva, 
+     vztahující se na Vaše užití Licencovaného obsahu a která je Poskytovatel oprávněn licencovat.
 
-g. Poskytovatelem se rozumí fyzická nebo právnická osoba (osoby), která uděluje oprávnění k výkonu práv na základě této Veřejné licence.
+  g. Poskytovatelem se rozumí fyzická nebo právnická osoba (osoby), která uděluje oprávnění 
+     k výkonu práv na základě této Veřejné licence.
 
-h. Nekomerčním se rozumí nikoliv prvotně zamýšlený nebo určený pro získání obchodního prospěchu či peněžitého plnění. Pro účely této Veřejné licence se výměna Licencovaného obsahu za jiný obsah, na který se vztahují Autorská nebo obdobná práva, prostřednictvím digitálního sdílení souborů nebo obdobným způsobem považuje za Nekomerční, pokud taková výměna není spojena s peněžitým plněním.
+  h. Nekomerčním se rozumí nikoliv prvotně zamýšlený nebo určený pro získání obchodního prospěchu 
+     či peněžitého plnění. Pro účely této Veřejné licence se výměna Licencovaného obsahu za jiný 
+     obsah, na který se vztahují Autorská nebo obdobná práva, prostřednictvím digitálního sdílení 
+     souborů nebo obdobným způsobem považuje za Nekomerční, pokud taková výměna není spojena s peněžitým plněním.
 
-i. Sdílením se rozumí poskytnutí obsahu veřejnosti jakýmkoli způsobem či prostředkem vyžadujícím ve smyslu Licencovaných práv svolení, jako například rozmnožování, veřejné vystavování, veřejné provozování, rozšiřování, šíření, zpřístupňování či dovoz a sdělování veřejnosti způsobem, že kdokoli může mít k obsahu přístup na místě a v čase podle své vlastní volby.
+  i. Sdílením se rozumí poskytnutí obsahu veřejnosti jakýmkoli způsobem či prostředkem vyžadujícím 
+     ve smyslu Licencovaných práv svolení, jako například rozmnožování, veřejné vystavování, 
+     veřejné provozování, rozšiřování, šíření, zpřístupňování či dovoz a sdělování veřejnosti 
+     způsobem, že kdokoli může mít k obsahu přístup na místě a v čase podle své vlastní volby.
 
-j. Zvláštními právy pořizovatele databáze se rozumí jiná než autorská práva plynoucí ze Směrnice Evropského parlamentu a Rady 96/9/ES z 11. března 1996 o právní ochraně databází, ve znění pozdějších či nahrazujících předpisů, jakož i další v zásadě rovnocenná práva kdekoli na světě.
+  j. Zvláštními právy pořizovatele databáze se rozumí jiná než autorská práva plynoucí ze 
+     Směrnice Evropského parlamentu a Rady 96/9/ES z 11. března 1996 o právní ochraně databází, 
+     ve znění pozdějších či nahrazujících předpisů, jakož i další v zásadě rovnocenná práva kdekoli na světě.
 
-k. Vy, Vám, Vámi, Vás označuje fyzickou nebo právnickou osobu, vykonávající Licencovaná práva na základě této Veřejné licence. Vaše, Vašeho, Vašemu, Vašich, Vaším má obdobný význam.
+  k. Vy, Vám, Vámi, Vás označuje fyzickou nebo právnickou osobu, vykonávající Licencovaná práva na 
+     základě této Veřejné licence. Vaše, Vašeho, Vašemu, Vašich, Vaším má obdobný význam.
 
 
 Článek 2 – Rozsah.
