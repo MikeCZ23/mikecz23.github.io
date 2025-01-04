@@ -10,16 +10,36 @@ Uveďte původ-Neužívejte komerčně-Nezpracovávejte 4.0 Mezinárodní
 
 Creative Commons Corporation ("Creative Commons") není advokátní kancelář ani neposkytuje právní služby nebo právní poradenství. Šířením textů veřejných licencí Creative Commons nevzniká vztah příkazního typu nebo jiný takový obdobný vztah. Creative Commons Corporation poskytuje texty veřejných licencí a související informace tak, jak jsou. Creative Commons Corporation neodpovídá za texty veřejných licencí ani za obsah licencovaný za těchto licenčních podmínek ani za související informace. Creative Commons Corporation v maximální možné míře vylučuje veškerou odpovědnost za újmu, která vznikne v důsledku jejich použití.
 
-Používání Veřejných licencí Creative Commons:
+Používání Veřejných licencí Creative Commons
+
 Texty veřejných licencí Creative Commons představují standardizovaný soubor licenčních podmínek, které mohou autoři nebo další nositelé práv použít pro sdílení chráněných autorských děl a dalšího obsahu podléhajícímu autorským právům a dalším právům uvedeným níže v této veřejné licenci. Následující upozornění slouží pouze pro informační účely, nejsou vyčerpávající a nejsou součástí těchto licencí.
 
-Upozornění pro poskytovatele licence:
-Tyto veřejné licence jsou určeny osobám oprávněným poskytovat veřejnosti oprávnění k užití obsahu způsobem, který je jinak vyhrazen vykonavatelům autorských a některých dalších práv. Tyto licence jsou neodvolatelné. Poskytovatelé by si měli licenční podmínky řádně prostudovat tak, aby jim porozuměli dříve, než se je rozhodnou použít. Poskytovatelé by si také před použitím těchto licencí měli zajistit veškerá potřebná práva tak, aby mohla veřejnost dílo užít předpokládaným způsobem. Poskytovatelé by měli jednoznačně označit veškerý obsah, na který se licence nevztahují, a to včetně dalších děl poskytnutých pod licencemi CC nebo materiály užité na základě výjimky či omezení autorských práv.
-wiki.creativecommons.org/Considerations_for_licensors
+     Upozornění pro poskytovatele licence: Tyto veřejné licence jsou určeny 
+     osobám oprávněným poskytovat veřejnosti oprávnění k užití obsahu způsobem, 
+     který je jinak vyhrazen vykonavatelům autorských a některých dalších práv. 
+     Tyto licence jsou neodvolatelné. Poskytovatelé by si měli licenční podmínky 
+     řádně prostudovat tak, aby jim porozuměli dříve, než se je rozhodnou použít.
+     Poskytovatelé by si také před použitím těchto licencí měli zajistit veškerá 
+     potřebná práva tak, aby mohla veřejnost dílo užít předpokládaným způsobem. 
+     Poskytovatelé by měli jednoznačně označit veškerý obsah, na který se licence 
+     nevztahují, a to včetně dalších děl poskytnutých pod licencemi CC nebo
+     materiály užité na základě výjimky či omezení autorských práv.
+    wiki.creativecommons.org/Considerations_for_licensors
 
-Upozornění pro veřejnost:
-Použitím některé z těchto veřejných licencí poskytuje poskytovatel veřejnosti oprávnění k užití licencovaného obsahu za stanovených licenčních podmínek. Pokud z nějakého důvodu není souhlas poskytovatele nutný, například z důvodu uplatnění některé výjimky nebo omezení autorského práva, potom se na dané užití tato licence nevztahuje. Na základě těchto licencí jsou poskytována pouze oprávnění k výkonu autorských a některých dalších práv, která je poskytovatel oprávněn poskytovat. Užití licencovaného obsahu může být přesto omezeno z dalších důvodů, například proto, že nositelem autorských, či dalších práv k němu se vztahujících, je někdo jiný. Poskytovatel může vznést zvláštní požadavky, například požádat o to, aby byly označeny nebo popsány veškeré změny. Ačkoli to tyto licence nevyžadují, nabádáme Vás, abyste tyto požadavky respektovali, pokud jsou přiměřené.
-wiki.creativecommons.org/Considerations_for_licensees
+     Upozornění pro veřejnost: Použitím některé z těchto veřejných licencí 
+     poskytuje poskytovatel veřejnosti oprávnění k užití licencovaného obsahu 
+     za stanovených licenčních podmínek. Pokud z nějakého důvodu není souhlas 
+     poskytovatele nutný, například z důvodu uplatnění některé výjimky nebo 
+     omezení autorského práva, potom se na dané užití tato licence nevztahuje. 
+     Na základě těchto licencí jsou poskytována pouze oprávnění k výkonu 
+     autorských a některých dalších práv, která je poskytovatel oprávněn 
+     poskytovat. Užití licencovaného obsahu může být přesto omezeno z dalších 
+     důvodů, například proto, že nositelem autorských, či dalších práv k němu 
+     se vztahujících, je někdo jiný. Poskytovatel může vznést zvláštní požadavky, 
+     například požádat o to, aby byly označeny nebo popsány veškeré změny.
+     Ačkoli to tyto licence nevyžadují, nabádáme Vás, abyste tyto požadavky 
+     respektovali, pokud jsou přiměřené.
+    wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
