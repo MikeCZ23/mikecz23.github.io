@@ -109,6 +109,7 @@ export default defineConfig({
   base: "/",
   head: [
     ['link', { rel: 'stylesheet', href: '//cdn.jsdelivr.net/npm/element-plus/dist/index.css' }],
+    ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js' }],
     ['script', { async: '', src: '//cdn.jsdelivr.net/npm/@element-plus/icons-vue' }],
     ['script', { async: '', src: '//cdn.jsdelivr.net/npm/vue@3' }],
     ['script', { async: '', src: '//cdn.jsdelivr.net/npm/element-plus' }],
