@@ -1,0 +1,351 @@
+---
+title: Radio
+sidebar: false
+next: false
+comments: false
+editLink: false
+---
+
+# Rádia
+
+<div class="radio-container">
+    <!-- Rádio 1 -->
+     <div class="radio-card">
+        <img src="https://static.mytuner.mobi/media/tvos_radios/5K9k6Xu6s2.jpg" alt="Simulator Radio">
+        <h3>Simulator Radio</h3>
+        <div class="audio-player">
+            <audio id="audio1" preload="auto">
+                <source src="https://simulatorradio.stream/stream?t=17066077351706607744877" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause1"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute1"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rádio 2 -->
+    <div class="radio-card">
+        <img src="https://static2.mytuner.mobi/media/tvos_radios/2BgjcLahUb.png" alt="Radio 2">
+        <h3>TruckSim FM</h3>
+        <div class="audio-player">
+            <audio id="audio2" preload="auto">
+                <source src="https://radio.trucksim.fm:8000/stream" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause2"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute2"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume2" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rádio 3 -->
+     <div class="radio-card">
+        <img src="https://static2.mytuner.mobi/media/tvos_radios/wvnjbmar3vmu.png" alt="Radio 3">
+        <h3>Truckers FM</h3>
+        <div class="audio-player">
+            <audio id="audio3" preload="auto">
+                <source src="https://radio.truckers.fm/" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause3"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute3"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rádio 4 -->
+    <div class="radio-card">
+        <img src="https://cdn-profiles.tunein.com/s328253/images/logod.png" alt="Radio 2">
+        <h3>TruckStopRadio</h3>
+        <div class="audio-player">
+            <audio id="audio4" preload="auto">
+                <source src="https://oreo.truckstopradio.co.uk/listen/truckstopradio/radio.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause4"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute4"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume4" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rádio 5 -->
+    <div class="radio-card">
+        <img src="https://cdn-profiles.tunein.com/s256550/images/logod.png?t=638678835590000000" alt="Radio 2">
+        <h3>SimLiveRadio</h3>
+        <div class="audio-player">
+            <audio id="audio5" preload="auto">
+                <source src="https://simliveradio.stream.laut.fm/simliveradio?ref=radiodns" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause5"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute5"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume5" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  // Inicializace přehrávače pro každé rádio
+  const radios = document.querySelectorAll('.audio-player');
+
+  radios.forEach((player, index) => {
+    const audio = player.querySelector('audio');
+    const playPauseButton = player.querySelector(`#playPause${index + 1}`);
+    const volumeControl = player.querySelector(`#volume${index + 1}`);
+    const muteButton = player.querySelector(`#mute${index + 1}`);
+
+    initializePlayer(audio, playPauseButton, volumeControl, muteButton, index + 1);
+  });
+});
+
+function initializePlayer(audio, playPauseButton, volumeControl, muteButton, index) {
+  // Play/Pause funkce
+  playPauseButton.addEventListener('click', () => {
+    if (audio.paused) {
+      stopAllRadios(index);
+      audio.play();
+      playPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+    } else {
+      audio.pause();
+      playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+    }
+  });
+
+  // Nastavení hlasitosti
+  volumeControl.addEventListener('input', () => {
+    audio.volume = volumeControl.value;
+  });
+
+  // Mute/Unmute funkce
+  muteButton.addEventListener('click', () => {
+    audio.muted = !audio.muted;
+    muteButton.innerHTML = audio.muted
+      ? '<i class="fas fa-volume-mute"></i>'
+      : '<i class="fas fa-volume-up"></i>';
+  });
+}
+
+function stopAllRadios(exceptIndex) {
+  const radios = document.querySelectorAll('.audio-player');
+
+  radios.forEach((player, index) => {
+    if (index + 1 !== exceptIndex) {
+      const audio = player.querySelector('audio');
+      const playPauseButton = player.querySelector(`#playPause${index + 1}`);
+      if (!audio.paused) {
+        audio.pause();
+        playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+      }
+    }
+  });
+}
+</script>
+
+
+
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        /* margin: 0; */
+        /* padding: 0; */
+        color: #333;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 2em;
+    }
+
+    .radio-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .radio-card {
+        background-color: #232323;
+        border: 1px solid #444;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+    .radio-card:hover {
+        transform: scale(1.05);
+    }
+
+    .radio-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .radio-card h3 {
+        margin: 15px 0 10px;
+        font-size: 1.2em;
+        color: #777;
+    }
+
+    .audio-player {
+        width: 100%;
+        background-color: #333;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: #fff;
+    }
+
+    .audio-player audio {
+        display: none;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        /* justify-content: flex-start; */
+        gap: 10px;
+    }
+
+    .controls button {
+        background-color: #555;
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.5em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s;
+    }
+
+    .controls button:hover {
+        background-color: #444;
+    }
+
+    .controls .volume {
+        display: flex;
+        align-items: center;
+    }
+
+    .controls .volume input {
+        width: 100px;
+        margin: 0;
+    }
+
+    .controls .mute-volume {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Mezera mezi Mute a Volume */
+    margin-left: 10px; /* Posun Mute a Volume doprava */
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 8px;
+        background-color: #444;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .progress-bar .progress {
+        height: 100%;
+        width: 0;
+        background-color: #f39c12;
+        border-radius: 5px;
+    }
+
+
+button {
+    font-size: 1.5rem; /* Velikost ikony uvnitř tlačítka */
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff; /* Barva pro ikony */
+}
+
+button i {
+    font-size: inherit; /* Zajištění velikosti ikon pro všechny tlačítka */
+}
+
+button#mute1,
+button#mute2,
+button#mute3, 
+button#mute4, 
+button#mute5 {
+    font-size: 1.0rem; /* Stejná velikost pro mute tlačítka */
+    background: none;  /* Odstranění pozadí */
+    width: 40px;        /* Velikost tlačítka */
+    height: 40px;       /* Velikost tlačítka */
+    border-radius: 0%; /* Kulatý tvar tlačítka */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    position: relative;
+    left: 5px; /* Posun doprava */
+}
+
+button#mute1 i,
+button#mute2 i,
+button#mute3 i,
+button#mute4 i,
+button#mute5 i {
+    font-size: inherit; /* Zajištění velikosti ikony */
+}
+
+button i.fas {
+    font-size: inherit; /* Ujistíme se, že ikony mají stejnou velikost jako ostatní tlačítka */
+}
+
+</style>
