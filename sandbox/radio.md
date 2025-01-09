@@ -8,8 +8,8 @@ lastUpdated: false
 publish: false
 ---
 
+<h1 class="radioname">Rádia</h1>
 <div class="radio-container">
-  <h1>Rádia</h1>
     <!-- Rádio 1 -->
      <div class="radio-card">
         <img src="https://static.mytuner.mobi/media/tvos_radios/5K9k6Xu6s2.jpg" alt="Simulator Radio">
@@ -189,7 +189,7 @@ function stopAllRadios(exceptIndex) {
 
 
 <style>
-    .radio-container h1 {
+    .radioname h1 {
         text-align: center;
         margin: 20px 0;
         font-size: 2em;
