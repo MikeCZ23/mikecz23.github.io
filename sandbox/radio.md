@@ -5,6 +5,7 @@ next: false
 comments: false
 editLink: false
 lastUpdated: false
+publish: false
 ---
 
 # Rádia
@@ -111,6 +112,16 @@ lastUpdated: false
         </div>
     </div>
 </div>
+<br><br>
+<div style="max-width: 1920px"> <!-- DEFAULT 600 --> 
+    <el-alert
+      title="INFO"
+      type="info"
+      description="Veškerá práva patří jednotlivým rádiím."
+      :closable="false"
+      show-icon
+    />
+  </div>
 
 
 
