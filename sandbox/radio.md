@@ -189,10 +189,6 @@ function stopAllRadios(exceptIndex) {
 
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-
     .radio-container h1 {
         text-align: center;
         margin: 20px 0;
@@ -201,6 +197,7 @@ function stopAllRadios(exceptIndex) {
     }
 
     .radio-container {
+      	font-family: Arial, sans-serif;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
