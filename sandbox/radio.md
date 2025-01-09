@@ -4,6 +4,7 @@ sidebar: false
 next: false
 comments: false
 editLink: false
+lastUpdated: false
 ---
 
 # Rádia
