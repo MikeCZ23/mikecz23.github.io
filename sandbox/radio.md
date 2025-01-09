@@ -189,7 +189,7 @@ function stopAllRadios(exceptIndex) {
 
 
 <style>
-    .radioname h1 {
+    h1.radioname {
         text-align: center;
         margin: 20px 0;
         font-size: 2em;
