@@ -26,7 +26,7 @@ publish: false
                     <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
                 </div>
             </div>
-        </div>
+        </div><hr class="radio">
         <a href="https://simulatorradio.com/home" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
     </div>
@@ -48,7 +48,7 @@ publish: false
                         <input type="range" id="volume2" min="0" max="1" step="0.01" value="1">
                     </div>
                 </div>
-            </div>
+            </div><hr class="radio">
             <a href="https://www.trucksim.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
@@ -70,7 +70,7 @@ publish: false
                         <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
                     </div>
                 </div>
-            </div>
+            </div><hr class="radio">
             <a href="https://truckers.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
@@ -92,7 +92,7 @@ publish: false
                         <input type="range" id="volume4" min="0" max="1" step="0.01" value="1">
                     </div>
                 </div>
-            </div>
+            </div><hr class="radio">
             <a href="https://truckstopradio.co.uk/" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
@@ -114,12 +114,13 @@ publish: false
                         <input type="range" id="volume5" min="0" max="1" step="0.01" value="1">
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><hr class="radio">
         <a href="https://simliveradio.net/" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
     </div>
 </div>
+</div>
+
 <br><br>
 <div style="max-width: 1920px"> <!-- DEFAULT 600 --> 
     <el-alert
@@ -301,6 +302,10 @@ function stopAllRadios(exceptIndex) {
     margin-left: 10px; /* Posun Mute a Volume doprava */
     }
 
+    hr.radio {
+        border-top: 1px solid #444 !important;
+    }
+
     .progress-bar {
         width: 100%;
         height: 8px;
@@ -365,7 +370,7 @@ button i.fas {
 .radio-card .visit-website {
     display: inline-flex;
     align-items: center;
-    margin-top: 20px; /* Odstup od ovládacích prvků */
+    margin-top: 0px; /* Odstup od ovládacích prvků */
     padding: 8px 12px;
     color: #fff;
     text-decoration: none;
@@ -418,4 +423,5 @@ button i.fas {
 }
 
 </style>
+
 
