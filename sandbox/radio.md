@@ -7,15 +7,6 @@ lastUpdated: false
 publish: false
 ---
 
----
-title: Radio
-sidebar: false
-next: false
-editLink: false
-lastUpdated: false
-publish: false
----
-
 <h1 class="radioname">Rádia</h1>
 <div class="radio-container">
     <!-- Rádio 1 -->
