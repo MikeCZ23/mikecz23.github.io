@@ -7,30 +7,41 @@ lastUpdated: false
 publish: false
 ---
 
+---
+title: Radio
+sidebar: false
+next: false
+editLink: false
+lastUpdated: false
+publish: false
+---
+
 <h1 class="radioname">Rádia</h1>
 <div class="radio-container">
     <!-- Rádio 1 -->
-     <div class="radio-card">
-        <img src="https://static.mytuner.mobi/media/tvos_radios/5K9k6Xu6s2.jpg" alt="Simulator Radio">
-        <h3>Simulator Radio</h3>
-        <div class="audio-player">
-            <audio id="audio1" preload="auto">
-                <source src="https://simulatorradio.stream/stream?t=17066077351706607744877" type="audio/mpeg">
-                Váš prohlížeč nepodporuje přehrávání rádia.
-            </audio>
-            <div class="controls">
-                <button id="playPause1"><i class="fas fa-play"></i></button>
-                <div class="mute-volume">
-                    <button id="mute1"><i class="fas fa-volume-up"></i></button>
-                    <div class="volume">
-                        <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
-                    </div>
+    <div class="radio-card simulator-radio">
+    <img src="https://static.mytuner.mobi/media/tvos_radios/5K9k6Xu6s2.jpg" alt="Simulator Radio">
+    <h3>Simulator Radio</h3>
+    <div class="audio-player">
+        <audio id="audio1" preload="auto">
+            <source src="https://simulatorradio.stream/stream?t=17066077351706607744877" type="audio/mpeg">
+            Váš prohlížeč nepodporuje přehrávání rádia.
+        </audio>
+        <div class="controls">
+            <button id="playPause1"><i class="fas fa-play"></i></button>
+            <div class="mute-volume">
+                <button id="mute1"><i class="fas fa-volume-up"></i></button>
+                <div class="volume">
+                    <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
                 </div>
             </div>
         </div>
+        <a href="https://simulatorradio.com/home" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
     </div>
+</div>
     <!-- Rádio 2 -->
-    <div class="radio-card">
+    <div class="radio-card trucksim-fm">
         <img src="https://static2.mytuner.mobi/media/tvos_radios/2BgjcLahUb.png" alt="Radio 2">
         <h3>TruckSim FM</h3>
         <div class="audio-player">
@@ -47,10 +58,12 @@ publish: false
                     </div>
                 </div>
             </div>
+            <a href="https://www.trucksim.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
     </div>
     <!-- Rádio 3 -->
-     <div class="radio-card">
+     <div class="radio-card truckers-fm">
         <img src="https://static2.mytuner.mobi/media/tvos_radios/wvnjbmar3vmu.png" alt="Radio 3">
         <h3>Truckers FM</h3>
         <div class="audio-player">
@@ -67,10 +80,12 @@ publish: false
                     </div>
                 </div>
             </div>
+            <a href="https://truckers.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
     </div>
     <!-- Rádio 4 -->
-    <div class="radio-card">
+    <div class="radio-card truckstopradio">
         <img src="https://cdn-profiles.tunein.com/s328253/images/logod.png" alt="Radio 2">
         <h3>TruckStopRadio</h3>
         <div class="audio-player">
@@ -87,10 +102,12 @@ publish: false
                     </div>
                 </div>
             </div>
+            <a href="https://truckstopradio.co.uk/" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
     </div>
     <!-- Rádio 5 -->
-    <div class="radio-card">
+    <div class="radio-card simliveradio">
         <img src="https://cdn-profiles.tunein.com/s256550/images/logod.png?t=638678835590000000" alt="Radio 2">
         <h3>SimLiveRadio</h3>
         <div class="audio-player">
@@ -108,6 +125,8 @@ publish: false
                 </div>
             </div>
         </div>
+        <a href="https://simliveradio.net/" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
     </div>
 </div>
 <br><br>
@@ -209,11 +228,11 @@ function stopAllRadios(exceptIndex) {
         background-color: #232323;
         border: 1px solid #444;
         border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         width: 300px;
         padding: 20px;
         text-align: center;
-        transition: transform 0.2s;
+        transition: transform 0.3s;
     }
 
     .radio-card:hover {
@@ -240,6 +259,7 @@ function stopAllRadios(exceptIndex) {
         margin-top: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         color: #fff;
+        /* border: 1px solid #444; */
     }
 
     .audio-player audio {
@@ -266,7 +286,7 @@ function stopAllRadios(exceptIndex) {
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: background-color 0.2s;
+        transition: background-color 0.5s;
     }
 
     .controls button:hover {
@@ -351,4 +371,60 @@ button i.fas {
     font-size: inherit; /* Ujistíme se, že ikony mají stejnou velikost jako ostatní tlačítka */
 }
 
+.radio-card .visit-website {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px; /* Odstup od ovládacích prvků */
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    transition: filter 0.3s ease;
+    /* border: 1px solid #444; */
+    background: linear-gradient(55deg, #000dff, #6728e5);
+}
+
+.visit-website svg {
+    width: 16px; /* Nastavení šířky ikony */
+    height: 16px; /* Nastavení výšky ikony */
+    margin-right: 5px; /* Odstup od textu */
+    color: #fff; /* Nastavení barvy */
+    transition: color 0.3s ease; /* Přechod při změně barvy */
+}
+
+.radio-card .visit-website:hover {
+    background-color: #0056b3;
+    filter: brightness(0.8);
+}
+
+.radio-card.simulator-radio .visit-website {
+    background: linear-gradient(55deg, #ED3559, #E55C28);
+    color: #fff;
+    text-decoration: none;
+}
+.radio-card.trucksim-fm .visit-website {
+    background: linear-gradient(135deg, #003168, #000525);
+    color: #fff;
+    text-decoration: none;
+}
+.radio-card.truckers-fm .visit-website {
+    background: linear-gradient(135deg, #9B344D, #6E2341);
+    color: #fff;
+    text-decoration: none;
+}
+.radio-card.simliveradio .visit-website {
+    background: linear-gradient(135deg, #F87D04, #FAAB62 80%);
+    color: #fff;
+    text-decoration: none;
+}
+.radio-card.truckstopradio .visit-website {
+    background: linear-gradient(135deg, #0269FF, #001534 65%);
+    color: #fff;
+    text-decoration: none;
+}
+
 </style>
+
