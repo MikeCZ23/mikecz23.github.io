@@ -526,3 +526,7 @@ svg.icons{
   text-align: center;
   transition: background var(--vp-t-color), color var(--vp-t-color);
 }
+
+.spacer{
+	flex-grow: 1 !important;
+}
