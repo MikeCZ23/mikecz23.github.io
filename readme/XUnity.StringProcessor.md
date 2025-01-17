@@ -9,7 +9,7 @@ publish: false
 outline: [2, 4]
 ---
 <div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px;">
-  <img src="https://as2.ftcdn.net/v2/jpg/03/67/89/85/1000_F_367898595_6pz7ALMD0fSZZGlF2sEvblrxV03Hue7r.jpg">
+  <img src="https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg">
 </div>
 
 # XUnity.StringProcessor
