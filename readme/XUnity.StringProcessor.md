@@ -8,8 +8,8 @@ category: Tools
 publish: false
 outline: [2, 4]
 ---
-<div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px; height: 200px;">
-  <img src="https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg" style="object-fit: cover; object-position: center;">
+<div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px; height: 200px; object-position: center;">
+  <img src="https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg">
 </div>
 
 # XUnity.StringProcessor
