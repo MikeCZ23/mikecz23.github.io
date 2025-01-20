@@ -49,7 +49,7 @@ const people = {
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="99" :stroke-width="18" :text-inside="true" status="success" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="100" :stroke-width="18" :text-inside="true" status="success" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
@@ -61,8 +61,8 @@ const people = {
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-itch.io-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-0.8.2a-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.8.1-red?style=for-the-badge&labelColor=red)
+![](https://img.shields.io/badge/verze%20hry-0.8.2-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20překladu-0.8.2-grey?style=for-the-badge)
 
 ------------
 Pracujete jako vědec v izolované výzkumné laboratoři ve Švýcarských horách. Vaším úkolem je shromažďovat signály z vesmíru, analyzovat je, zpracovávat a prodávat, abyste získali body. Můžete získávat běžné signály a objekty, jako jsou trpasličí planety a hvězdy, nebo můžete získat něco "neobvyklého" či "podivného". Hra obsahuje více než 50 dní a událostí, více než 150 možných signálů, několik easter eggů a tajemství.<br /><br />
