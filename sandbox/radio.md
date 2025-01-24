@@ -31,6 +31,28 @@ publish: false
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
     </div>
 </div>
+  <!-- Rádio 3 -->
+     <div class="radio-card truckers-fm">
+        <img src="https://static2.mytuner.mobi/media/tvos_radios/wvnjbmar3vmu.png" alt="Radio 3">
+        <h3>Truckers FM</h3>
+        <div class="audio-player">
+            <audio id="audio3" preload="auto">
+                <source src="https://radio.truckers.fm/" type="audio/mpeg">
+                Váš prohlížeč nepodporuje přehrávání rádia.
+            </audio>
+            <div class="controls">
+                <button id="playPause3"><i class="fas fa-play"></i></button>
+                <div class="mute-volume">
+                    <button id="mute3"><i class="fas fa-volume-up"></i></button>
+                    <div class="volume">
+                        <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div><hr class="radio">
+            <a href="https://truckers.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
+        </div>
+    </div>
     <!-- Rádio 2 -->
     <div class="radio-card trucksim-fm">
         <img src="https://static2.mytuner.mobi/media/tvos_radios/2BgjcLahUb.png" alt="Radio 2">
@@ -50,28 +72,6 @@ publish: false
                 </div>
             </div><hr class="radio">
             <a href="https://www.trucksim.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
-        </div>
-    </div>
-    <!-- Rádio 3 -->
-     <div class="radio-card truckers-fm">
-        <img src="https://static2.mytuner.mobi/media/tvos_radios/wvnjbmar3vmu.png" alt="Radio 3">
-        <h3>Truckers FM</h3>
-        <div class="audio-player">
-            <audio id="audio3" preload="auto">
-                <source src="https://radio.truckers.fm/" type="audio/mpeg">
-                Váš prohlížeč nepodporuje přehrávání rádia.
-            </audio>
-            <div class="controls">
-                <button id="playPause3"><i class="fas fa-play"></i></button>
-                <div class="mute-volume">
-                    <button id="mute3"><i class="fas fa-volume-up"></i></button>
-                    <div class="volume">
-                        <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
-                    </div>
-                </div>
-            </div><hr class="radio">
-            <a href="https://truckers.fm/" class="visit-website" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Navštívit oficiální web</a>
         </div>
     </div>
