@@ -7,7 +7,7 @@ lastUpdated: false
 publish: false
 ---
 
-<h1 class="radioname">Rádia</h1>
+<h1 class="radioname">Rádio</h1>
 <div class="radio-container">
     <!-- Rádio 1 -->
     <div class="radio-card simulator-radio">
