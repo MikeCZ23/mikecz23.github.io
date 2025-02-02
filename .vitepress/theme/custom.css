@@ -479,9 +479,9 @@ svg.icons{
   /* --el-tag-text-color:var(--el-color-white); */
 }
 .tag-custom .yellow .el-tag:hover {
-  --el-tag-bg-color: #67792c;
+  --el-tag-bg-color: var(--tag-yellow-bg);
   /* --el-tag-border-color: #2d70b8; */
-  --el-tag-hover-color: #97a54b;
+  --el-tag-hover-color: var(--tag-yellow-bg);
   /* --el-tag-text-color:var(--el-color-white); */
 }
 .tag-custom .purple .el-tag:hover {
