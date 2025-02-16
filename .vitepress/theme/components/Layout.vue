@@ -55,14 +55,14 @@ const { frontmatter, title } = useData();
       </a>
     
       <!-- Obrázky s odkazy -->
-        <a v-for="link in links.normalLinks" :key="link.url" :href="link.url" class="panel-button" :class="link.class">
+        <a v-for="link in links.normalLinks" :key="link.url" :href="link.url" class="panel-button" :class="link.class" target="_blank">
           <img :src="link.imgSrc" :alt="link.alt" class="panel-image" :class="link.class" />
           <!-- <span>{{ link.label }}</span> -->
         </a>
 
       <!-- Řádek s více poly -->
       <div v-for="(group, index) in links.groupedLinks" :key="'row-' + index" class="panel-row">
-        <a v-for="link in group" :key="link.url" :href="link.url" class="panel-button" :class="link.class">
+        <a v-for="link in group" :key="link.url" :href="link.url" class="panel-button" :class="link.class" target="_blank">
           <img :src="link.imgSrc" :alt="link.alt" class="panel-image" :class="link.class" />
           <!-- <span>{{ link.label }}</span> -->
         </a>
