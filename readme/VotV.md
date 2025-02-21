@@ -53,11 +53,11 @@ const people = {
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="85" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="97" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Testovani:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="85" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="90" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-itch.io-grey?style=for-the-badge) 
