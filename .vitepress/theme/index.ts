@@ -11,8 +11,8 @@ import PBlogVideo from "./components/PBlogVideo.vue";
 import PDateString from "./components/PDateString.vue";
 import PTeamMembers from "./components/PTeamMembers.vue";
 import Layout from "./components/Layout.vue";
-import vitepressBackToTop from '../../plugins/vitepress-plugin-back-to-top';
-import './BtP-style.css'
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+import 'vitepress-plugin-back-to-top/dist/style.css'
 import vitepressLifeProgress from '../../plugins/vitepress-plugin-life-progress'
 import '../../plugins/vitepress-plugin-life-progress/lib/css/index.css'
 
