@@ -1,70 +1,35 @@
-:root {
-    --button-bg: #fff;
-    --btn-backtotop-color: #686868;
-    --btn-border-color: #ececec;
-    --btn-hover-color: rgb(235, 235, 235);
-}
-
-.dark {
-    --button-bg: rgb(39, 40, 43);
-    --btn-backtotop-color: rgb(175, 176, 177);
-    --btn-border-color: rgb(63, 65, 68);
-    --btn-hover-color: rgb(34, 34, 36);
-}
-
-
-
 .go-to-top[data-v-09295527]{
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    padding: 0;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid var(--btn-border-color); /*var(--vp-c-brand-2); */
-    background-color: var(--button-bg); /* var(--vp-c-brand-1); */
-    color: var(--btn-backtotop-color);
-    box-shadow: 0 2px 12px #0000001a;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    padding:0;
+    text-align:center;
+    border-radius:50%;
+    background-color:#fff;
+    box-shadow:0 2px 12px #0000001a;
     cursor:pointer;
     position:fixed;
     bottom:2rem;
-    right:2.5rem;
-    transition: 0.2s ease-out;
-    -webkit-transition: 0.2s ease-out;
-    z-index: 10000;
-    /* border: 2px solid rgb(0, 0, 108); 
-    outline: 5px solid var(--vp-c-brand-1);
-    outline-offset: 0px; */
+    right:2.5rem
 }
-.go-to-top[data-v-09295527]:hover{
-    background-color:var(--btn-hover-color);
-    transform: translateY(-5px); 
-    -webkit-transform: translateY(-5px); 
-    transition: 0.2s ease-out;
-    -webkit-transition: 0.2s ease-out;
-  /*  outline: 5px solid var(--vp-c-brand-2);
-    outline-offset: 0px; */
+ .go-to-top[data-v-09295527]:hover{
+    background-color:#f9f9f9
 }
-/* .go-to-top[data-v-09295527] > svg{
-    vertical-align: middle;
-    margin-top: -5px;
-} */
-.go-to-top .icon-top[data-v-09295527]{
-    width: 1em;
-    height: 1em;
+ .go-to-top .icon-top[data-v-09295527]{
+    width:1em;
+    height:1em;
     font-size:14px;
-    display:inline-block;
-    stroke-width: 0;
+    display:inline-block
 }
 @media (max-width: 959px){
     .go-to-top[data-v-09295527]{
         display:none
-    }}
-    .fade-enter-active[data-v-09295527],
-    .fade-leave-active[data-v-09295527]{
-        transition:opacity .3s
     }
-    .fade-enter[data-v-09295527],
-    .fade-leave-to[data-v-09295527]{
-        opacity:0
-    }
+}
+ .fade-enter-active[data-v-09295527], .fade-leave-active[data-v-09295527]{
+    transition:opacity .3s
+}
+ .fade-enter[data-v-09295527], .fade-leave-to[data-v-09295527]{
+    opacity:0
+}
+ 
