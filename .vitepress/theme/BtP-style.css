@@ -19,8 +19,8 @@
     position: fixed;
     bottom: 2rem;
     right: 2.5rem;
-    transition: 0.2sease-out;
-    -webkit-transition: 0.2sease-out;
+    transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
     justify-content: center;
     display: flex
 ;
@@ -32,8 +32,8 @@
     background-color:var(--btn-hover-color);
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
-    transition: 0.2sease-out;
-    -webkit-transition: 0.2sease-out;
+    transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
     outline-offset: 0px;
 }
  .go-to-top .icon-top[data-v-09295527]{
