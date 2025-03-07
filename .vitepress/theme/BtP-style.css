@@ -6,27 +6,40 @@
 }
 
 .go-to-top[data-v-09295527]{
-    width:36px;
-    height:36px;
-    line-height:36px;
-    padding:0;
-    text-align:center;
-    border-radius:50%;
+    width: 2.7em;
+    height: 2.7em;
+    line-height: 2.7em;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
     border: 1px solid var(--btn-border-color);
     background-color: var(--button-bg);
-    box-shadow:0 2px 12px #0000001a;
-    cursor:pointer;
-    position:fixed;
-    bottom:2rem;
-    right:2.5rem
+    box-shadow: 0 2px 12px #0000001a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 2.5rem;
+    transition: 0.2sease-out;
+    -webkit-transition: 0.2sease-out;
+    justify-content: center;
+    display: flex
+;
+    align-items: center;
+    outline-offset: 0px;
+    z-index: 10000;
 }
  .go-to-top[data-v-09295527]:hover{
     background-color:var(--btn-hover-color);
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transition: 0.2sease-out;
+    -webkit-transition: 0.2sease-out;
+    outline-offset: 0px;
 }
  .go-to-top .icon-top[data-v-09295527]{
     width:1em;
     height:1em;
-    font-size:14px;
+    font-size:19px;
     display:inline-block
 }
 @media (max-width: 959px){
