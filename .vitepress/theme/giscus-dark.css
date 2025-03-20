@@ -23,7 +23,7 @@ main input.task-list-item-checkbox:checked {
     background: black;
 }
 
-details summary{
+.markdown.gsc-comment-content details summary{
     background: black;
 }
 
