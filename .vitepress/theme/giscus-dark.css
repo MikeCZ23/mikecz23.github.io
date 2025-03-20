@@ -23,6 +23,10 @@ main input.task-list-item-checkbox:checked {
     background: black;
 }
 
+details summary{
+    background: black;
+}
+
 /*
 img {
     display: none;
