@@ -91,7 +91,15 @@ Na překladu se podílejí následující lidé:
 
 
 ## Ke stažení
-<a class="disable" href="https://www.dropbox.com/scl/fi/ny4ijcqa6uc2bwypr835l/PlagueInc-Czech.zip?rlkey=e5bqpwhjl1bcjwj7aq076x8kx&st=pvfzb1x5&dl=1" target="_blank" download>Stáhnout</a> <br>
+<a class="disabled" target="_self" download>Stáhnout</a> <br>
 15. Prosinec 2023
 
 <el-divider />
+
+
+<style>
+.disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+</style>
