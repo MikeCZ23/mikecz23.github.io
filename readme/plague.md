@@ -58,7 +58,7 @@ const people = {
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-1.20.0.0-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-1.20.1.1-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-0.7.3-grey?style=for-the-badge)
 
 ------------
@@ -91,7 +91,7 @@ Na překladu se podílejí následující lidé:
 
 
 ## Ke stažení
-<a class="disabled" target="_self" download>Stáhnout</a> <br>
+<a target="_self" download>Stáhnout</a> <br>
 15. Prosinec 2023
 
 <el-divider />
