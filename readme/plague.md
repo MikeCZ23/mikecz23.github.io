@@ -92,7 +92,7 @@ Na překladu se podílejí následující lidé:
 
 ## Ke stažení
 <a href="https://www.dropbox.com/scl/fi/ny4ijcqa6uc2bwypr835l/PlagueInc-Czech.zip?rlkey=e5bqpwhjl1bcjwj7aq076x8kx&st=3xnk4uep&dl=1" target="_self" download>Stáhnout</a> <br>
-15. Prosinec 2023
+17. Duben 2025
 
 <el-divider />
 
