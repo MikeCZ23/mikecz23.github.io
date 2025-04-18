@@ -12,6 +12,18 @@ publish: false
 outline: [2, 4]
 ---
 <script setup lang="ts">
+import { onMounted, onUnmounted } from 'vue';
+
+onMounted(() => {
+  document.body.classList.add('special-page');
+});
+
+onUnmounted(() => {
+  document.body.classList.remove('special-page');
+});
+
+
+  
 const people = {
   lead: [
     { name: "MikeCZ", role: "Vedení projektu"}
@@ -101,3 +113,13 @@ Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg c
 4. květen 2024 - oprava několika řádků
 
 <el-divider />
+
+
+
+
+
+<style>
+.special-page {
+  font-family: 'Cinzel', serif;
+}
+</style>
