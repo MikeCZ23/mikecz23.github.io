@@ -50,7 +50,7 @@ const { frontmatter, title } = useData();
         <span>
           <p class="extra-info">Děkujeme za přízeň</p>
           <p class="heading">2025</p>
-          <p class="extra-info">Děkujeme za návštěvu</p>
+          <p class="extra-info">Buďte u toho s námi!</p>
         </span>
       </a>
     
