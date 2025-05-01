@@ -50,7 +50,7 @@ const people = {
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="1" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="25" :stroke-width="18" :text-inside="true" status="warning" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Testovani:</div>
@@ -59,7 +59,7 @@ const people = {
     
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20hry-1.20.1.1-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.7.3-grey?style=for-the-badge)
+![](https://img.shields.io/badge/verze%20překladu-0.7.5-grey?style=for-the-badge)
 
 ------------
 Plague Inc: Evolved je jedinečná kombinace vysoké strategie a děsivě realistické simulace. Váš patogen právě nakazil „Patient Zero“ - nyní musíte dosáhnout konce lidské historie vyvinutím smrtícího, globálního moru a zároveň se přizpůsobit všem, co lidstvo může udělat, aby se bránilo.
