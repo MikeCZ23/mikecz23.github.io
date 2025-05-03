@@ -61,7 +61,7 @@ const people = {
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-itch.io-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-0.8.2-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-0.8.2c-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-0.8.2-grey?style=for-the-badge)
 
 ------------
