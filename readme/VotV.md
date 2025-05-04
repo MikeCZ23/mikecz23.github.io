@@ -21,6 +21,7 @@ const people = {
     { name: "Hopes", role: "Překlad, Korektura"},
     { name: "Redpomp55", role: "Překlad"},
     { name: "Metroxx", role: "Překlad"},
+    { name: "Wellociraptor", role: "Překlad"},
   ],
   support: [
     { name: "termit", role: "Technika, fonty"},
