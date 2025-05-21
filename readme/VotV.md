@@ -92,7 +92,8 @@ Na překladu se podílejí následující lidé:
 **CHYBY V PŘEKLADU NAHLAŠUJTE NA JEHO DISCORDU V [TÉTO ROOMCE](https://discord.com/channels/512287844258021376/1213827086708379688) VE FORMĚ SCREENU, A JÁ DO DRUHÉHO DNE VYDÁM UPDATE**
 <br><br>
 <span style="background:red;color:white;">Češtinu má hra officiálně, ale toto slouží jen jako opravy řádků. Do další verze hry se toto propíše přímo do hry.</span><br><br>
-<span style="background:red;color:white;">Chceš se přidat k týmu? Prostě mi napiš do komentářů.</span>
+<span style="background:red;color:white;">Chceš se přidat k týmu? Prostě mi napiš do komentářů.</span><br><br>
+<span style="background:red;color:white;">Pokud stahovací odkaz nefunguje, znamená to že hra má nejnovější češtinu už v sobě.</span>
 
 ---
 ### Instalace
