@@ -102,7 +102,6 @@ nahradí to Češtinu
 
 ## Ke stažení
 <a target="_self" class="disabled">Stáhnout</a> <br>
-21. srpen 2024 - oprava několika řádků
 
 <el-divider />
 <!-- https://www.dropbox.com/scl/fi/ktf9o7xv1obk74z3thyqo/VotV_Czech.7z?rlkey=qtgj5tggxnej92s8bgm5qxqms&st=ncz80j55&dl=1 -->
