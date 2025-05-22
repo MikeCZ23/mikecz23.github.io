@@ -58,8 +58,8 @@ const people = {
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-1.20.1.1-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.7.5-grey?style=for-the-badge)
+![](https://img.shields.io/badge/verze%20hry-1.21.0.0-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20překladu-0.7.6-grey?style=for-the-badge)
 
 ------------
 Plague Inc: Evolved je jedinečná kombinace vysoké strategie a děsivě realistické simulace. Váš patogen právě nakazil „Patient Zero“ - nyní musíte dosáhnout konce lidské historie vyvinutím smrtícího, globálního moru a zároveň se přizpůsobit všem, co lidstvo může udělat, aby se bránilo.
