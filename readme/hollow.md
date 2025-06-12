@@ -109,7 +109,11 @@ Na překladu se podílejí následující lidé:
 Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
-<a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" target="_blank" download>Stáhnout</a> <br>
+<!-- <a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" target="_blank" download>Stáhnout</a> <br> -->
+
+<a href="https://lokalizace.net/cestina-do/hollow-knight" target="_blank">Přejit ke stažení</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg> <br> <!--1. listopad 2024-->
+
+<el-divider />
 4. květen 2024 - oprava několika řádků
 
 <el-divider />
