@@ -14,13 +14,13 @@ outline: [2, 4]
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue';
 
-onMounted(() => {
-  document.body.classList.add('special-page');
-});
+// onMounted(() => {
+//  document.body.classList.add('special-page');
+// });
 
-onUnmounted(() => {
-  document.body.classList.remove('special-page');
-});
+// onUnmounted(() => {
+//  document.body.classList.remove('special-page');
+// });
 
 
   
