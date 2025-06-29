@@ -95,35 +95,3 @@ Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jse
  <a href="https://github.com/MikeCZ23/mikecz23.github.io/blob/main/readme/software/XUnity.StringProcessor.py" target="_blank">Source Code</a>
 
 <hr>
-
-
-
-
-<style>
-
-.download-wrapper {
-  display: inline-flex;
-  align-items: center; /* vertikální zarovnání na střed */
-  gap: 8px; /* mezera mezi tlačítkem a číslem */
-}
-
-#download-link {
-  /* text-decoration: none; */
-  /* font-weight: 600; */
-  /* color: #0057b8; */
-}
-
-.download-count {
-  width: 25px;
-  height: 25px;
-  border: 1px solid rgb(198, 75, 69);
-  border-radius: 4px;
-  text-align: center;
-  font-weight: normal;
-  font-size: 0.8rem;
-  color:rgb(198, 75, 69);
-  background-color: #333;
-  line-height: 24px; /* centrování textu vertikálně */
-  user-select: none;
-}
-</style>
