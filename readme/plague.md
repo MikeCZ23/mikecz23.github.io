@@ -159,17 +159,21 @@ Na překladu se podílejí následující lidé:
 }
 
 .download-count {
-  width: 25px;
+  display: inline-flex; /* Flex pro centrování textu */
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
   height: 25px;
   border: 1px solid rgb(198, 75, 69);
   border-radius: 4px;
   text-align: center;
+  padding: 0 8px; /* Vnitřní odsazení pro delší text */
   font-weight: normal;
   font-size: 0.8rem;
   color:rgb(198, 75, 69);
   background-color: #333;
-  line-height: 24px; /* centrování textu vertikálně */
   user-select: none;
+  white-space: nowrap; /* Zabrání zalomení textu */
 }
   
 </style>
