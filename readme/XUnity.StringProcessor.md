@@ -8,6 +8,47 @@ category: Tools
 publish: false
 outline: [2, 4]
 --- 
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'xunitysoft';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
+
+onMounted(() => {
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
+});
+</script>
+
+
 <div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px; height: 250px; align-items: center; display: flex;">
   <img src="https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg">
 </div>
@@ -46,7 +87,42 @@ Nástroj, který slouží k rozdělování a spojování souborů. Vytvořil jse
 - Názvy souborů máš v obrázku. <a href="#funkce"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
-<a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" target="_self">Stáhnout</a> [<a href="https://github.com/MikeCZ23/mikecz23.github.io/blob/main/readme/software/XUnity.StringProcessor.py" target="_blank">Source Code</a>] <br>
-26. prosinec 2024
+<div class="download-wrapper">
+  <a href="https://www.dropbox.com/scl/fi/q651afrnmbu3fmlpw3m7q/Xunity.StringProcessor.exe?rlkey=hlc4kg5yhxpnr7gngnb3evhui&st=pco5w6yz&dl=1" download id="download-link" target="_self">Stáhnout</a>
+  <div class="download-count" v-text="downloadCount"></div><<br>
+  [<a href="https://github.com/MikeCZ23/mikecz23.github.io/blob/main/readme/software/XUnity.StringProcessor.py" target="_blank">Source Code</a>]
+</div>
 
 <hr>
+
+
+
+
+<style>
+
+.download-wrapper {
+  display: inline-flex;
+  align-items: center; /* vertikální zarovnání na střed */
+  gap: 8px; /* mezera mezi tlačítkem a číslem */
+}
+
+#download-link {
+  /* text-decoration: none; */
+  /* font-weight: 600; */
+  /* color: #0057b8; */
+}
+
+.download-count {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(198, 75, 69);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color:rgb(198, 75, 69);
+  background-color: #333;
+  line-height: 24px; /* centrování textu vertikálně */
+  user-select: none;
+}
+</style>
