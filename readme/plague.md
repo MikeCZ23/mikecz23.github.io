@@ -144,36 +144,4 @@ Na překladu se podílejí následující lidé:
   cursor: not-allowed;
   opacity: 0.5;
 }
-
-  
-.download-wrapper {
-  display: inline-flex;
-  align-items: center; /* vertikální zarovnání na střed */
-  gap: 8px; /* mezera mezi tlačítkem a číslem */
-}
-
-#download-link {
-  /* text-decoration: none; */
-  /* font-weight: 600; */
-  /* color: #0057b8; */
-}
-
-.download-count {
-  display: inline-flex; /* Flex pro centrování textu */
-  align-items: center;
-  justify-content: center;
-  min-width: 25px;
-  height: 25px;
-  border: 1px solid rgb(198, 75, 69);
-  border-radius: 4px;
-  text-align: center;
-  padding: 0 8px; /* Vnitřní odsazení pro delší text */
-  font-weight: normal;
-  font-size: 0.8rem;
-  color:rgb(198, 75, 69);
-  background-color: #333;
-  user-select: none;
-  white-space: nowrap; /* Zabrání zalomení textu */
-}
-  
 </style>
