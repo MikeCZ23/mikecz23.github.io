@@ -175,7 +175,39 @@ img{
   color: ;
 }
 
-/* Nové styly pro .card a nálepku */
+
+.download-wrapper {
+  display: inline-flex;
+  align-items: center; /* vertikální zarovnání na střed */
+  gap: 8px; /* mezera mezi tlačítkem a číslem */
+}
+
+#download-link {
+  /* text-decoration: none; */
+  /* font-weight: 600; */
+  /* color: #0057b8; */
+}
+
+.download-count {
+  display: inline-flex; /* Flexbox pro centrování textu */
+  align-items: center; /* Vertikální zarovnání textu */
+  justify-content: center; /* Horizontální zarovnání textu */
+  min-width: 25px; /* Minimální šířka (pro jednociferná čísla) */
+  height: 25px;
+  padding: 0 8px; /* Vnitřní odsazení pro delší text */
+  border: 1px solid rgb(198, 75, 69);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color:rgb(198, 75, 69);
+  background-color: #333;
+  line-height: 24px; /* centrování textu vertikálně */
+  user-select: none; /* Zakáže označení textu */
+  white-space: nowrap; /* Zabrání zalomení textu */
+}
+
+/************************ Nové styly pro .card a nálepku *****************************/
 .card {
   position: relative;
   border: 3px solid;
@@ -247,7 +279,7 @@ img{
   padding: 15px;
 }
 
-/* Theme Switcher */
+/*********************** Theme Switcher *************************/
 html:not(.dark) img[data-mode="darkmode-only"] {
 	 display: none !important;
 }
@@ -271,7 +303,7 @@ html:not(.dark) img[data-mode="darkmode-only"] + figcaption {
 	 margin-right: -8px;
 }
 
-/* FAQ */
+/********************* FAQ **********************/
 .custom-block.details {
   margin: 0.2em 0;
   background: var(--vp-c-bg-soft);
@@ -336,7 +368,7 @@ html:not(.dark) img[data-mode="darkmode-only"] + figcaption {
     opacity: 1;
  }
 }
-/* Custom Containers Alert */
+/***************** Custom Containers Alert ***********************/
 .el-alert.el-alert--warning.is-light {
 	border-left: 5px solid;
 	margin: 20px 0 0;
@@ -361,7 +393,7 @@ svg.icons{
 margin-left: -6px;
 }
 
-/* Progressbar */
+/************************* Progressbar ********************************/
 .prog-custom .el-progress.is-success .el-progress-bar__inner{
   background-color: var(--el-color-custom-success);
 }
@@ -399,7 +431,7 @@ margin-left: -6px;
   /* filter: drop-shadow(rgb(0, 0, 0) 1px 1px 1px); */
 }
 
-/* Tags */
+/********************* Tags ***************************/
 .tag-custom .el-tag.el-tag--warning{
   --el-tag-bg-color:var(--el-color-custom-light-9);
   --el-tag-border-color:var(--el-color-custom-light-8);
