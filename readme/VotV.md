@@ -13,6 +13,46 @@ publish: false
 outline: [2, 4]
 ---
 <script setup lang="ts">
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'votv';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
+
+onMounted(() => {
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
+});
+
+
+  
 const people = {
   lead: [
     { name: "MikeCZ", role: "Vedení projektu"}
@@ -101,7 +141,10 @@ cesta: ..\VotV\Content\Paks <br />
 nahradí to Češtinu
 
 ## Ke stažení
-<a target="_self" class="disabled">Stáhnout</a> <br>
+<div class="download-wrapper">
+  <a target="_self" download id="download-link" class="disabled">Stáhnout</a>
+  <div class="download-count" v-text="downloadCount"></div>
+</div>
 
 <el-divider />
 <!-- https://www.dropbox.com/scl/fi/ktf9o7xv1obk74z3thyqo/VotV_Czech.7z?rlkey=qtgj5tggxnej92s8bgm5qxqms&st=ncz80j55&dl=1 -->
@@ -110,6 +153,33 @@ nahradí to Češtinu
 .disabled{
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+  
+.download-wrapper {
+  display: inline-flex;
+  align-items: center; /* vertikální zarovnání na střed */
+  gap: 8px; /* mezera mezi tlačítkem a číslem */
+}
+
+#download-link {
+  /* text-decoration: none; */
+  /* font-weight: 600; */
+  /* color: #0057b8; */
+}
+
+.download-count {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(198, 75, 69);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color:rgb(198, 75, 69);
+  background-color: #333;
+  line-height: 24px; /* centrování textu vertikálně */
+  user-select: none;
 }
 </style>
 
