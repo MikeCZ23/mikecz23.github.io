@@ -9,6 +9,46 @@ publish: false
 outline: [2, 4]
 ---
 <script setup lang="ts">
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'infekce';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
+
+onMounted(() => {
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
+});
+
+
+  
 const people = {
   lead: [
     { name: "MikeCZ", role: "Vedení projektu, Překlad"}
@@ -69,8 +109,10 @@ Na překladu se podílejí následující lidé:
 cesta: ..\Infection Free Zone_Data\StreamingAssets\Languages <br />
 
 ## Ke stažení
-<a class="disabled">Stáhnout</a> <br>
-<a href="https://lokalizace.net/cestina-do/infection-free-zone" target="_blank">Přejit ke stažení</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg> <br> <!--1. listopad 2024-->
+<div class="download-wrapper">
+  <a href="https://lokalizace.net/cestina-do/infection-free-zone" download id="download-link" target="_blank">Přejit ke stažení</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
+  <div class="download-count" v-text="downloadCount"></div>
+</div>
 
 <el-divider />
 
@@ -81,6 +123,33 @@ cesta: ..\Infection Free Zone_Data\StreamingAssets\Languages <br />
 .disabled{
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+  
+.download-wrapper {
+  display: inline-flex;
+  align-items: center; /* vertikální zarovnání na střed */
+  gap: 8px; /* mezera mezi tlačítkem a číslem */
+}
+
+#download-link {
+  /* text-decoration: none; */
+  /* font-weight: 600; */
+  /* color: #0057b8; */
+}
+
+.download-count {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(198, 75, 69);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color:rgb(198, 75, 69);
+  background-color: #333;
+  line-height: 24px; /* centrování textu vertikálně */
+  user-select: none;
 }
 </style>
 
