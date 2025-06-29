@@ -12,16 +12,53 @@ publish: false
 outline: [2, 4]
 ---
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue';
+//import { onMounted, onUnmounted } from 'vue';
+
+//onMounted(() => {
+// document.body.classList.add('special-page');
+//});
+
+//onUnmounted(() => {
+// document.body.classList.remove('special-page');
+//});
+  
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'hollow';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
 
 onMounted(() => {
- document.body.classList.add('special-page');
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
 });
-
-onUnmounted(() => {
- document.body.classList.remove('special-page');
-});
-
 
   
 const people = {
@@ -109,7 +146,10 @@ Na překladu se podílejí následující lidé:
 Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a>
 
 ## Ke stažení
-<a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" target="_blank" download>Stáhnout</a> <br>
+<div class="download-wrapper">
+  <a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" download id="download-link" target="_blank">Stáhnout</a>
+  <div class="download-count" v-text="downloadCount"></div>
+</div>
 
 <el-divider />
 
@@ -121,5 +161,32 @@ Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg c
 <style>
 .special-page {
   font-family: 'Cinzel', serif;
+}
+
+  
+.download-wrapper {
+  display: inline-flex;
+  align-items: center; /* vertikální zarovnání na střed */
+  gap: 8px; /* mezera mezi tlačítkem a číslem */
+}
+
+#download-link {
+  /* text-decoration: none; */
+  /* font-weight: 600; */
+  /* color: #0057b8; */
+}
+
+.download-count {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(198, 75, 69);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color:rgb(198, 75, 69);
+  background-color: #333;
+  line-height: 24px; /* centrování textu vertikálně */
+  user-select: none;
 }
 </style>
