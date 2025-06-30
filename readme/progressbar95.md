@@ -10,7 +10,7 @@ outline: [2, 4]
 import { ref, onMounted } from 'vue';
 
 // Zadej sem svůj unikátní identifikátor (např. "projekt1")
-const fileId = 'infekce';
+const fileId = 'progress';
 
 // Sestav URL s parametrem file podle ID
 const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
