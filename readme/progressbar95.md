@@ -7,6 +7,46 @@ publish: false
 outline: [2, 4]
 ---
 <script setup lang="ts">
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'infekce';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
+
+onMounted(() => {
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
+});
+
+
+  
 const people = {
   lead: [
     { name: "MikeCZ", role: "Vedení projektu"}
@@ -46,7 +86,10 @@ Na překladu se podílejí následující lidé:
 cesta: Progressbar95\Resources\international\en <br />
 
 ## Ke stažení
-<a href="https://www.dropbox.com/scl/fi/wy3jpyxcydhk2s54lnav6/Progressbar95-Czech.7z?rlkey=6z5xn804mbv34d9twaybag005&st=2m6f12bj&dl=1" target="_self" download>Stáhnout</a> <br>
+<div class="download-wrapper">
+  <a href="https://www.dropbox.com/scl/fi/wy3jpyxcydhk2s54lnav6/Progressbar95-Czech.7z?rlkey=6z5xn804mbv34d9twaybag005&st=2m6f12bj&dl=1" download id="download-link" target="_self">Stáhnout</a>
+  <div class="download-count" v-text="downloadCount"></div>
+</div>
 
 <el-divider />
 
