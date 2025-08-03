@@ -19,7 +19,7 @@ Módy zajišťuje Scarab. Pokud nemáš v hlavním menu hry vlevo nahoře log, n
 :::
 
 ::: details Nešlo by dát češtinu přímo do Scaraba?
-Ano šlo, ale fonty už ne.
+Pro mě moc složitý. Asi by to šlo.
 :::
 
 ::: details Budeš dělat i Silksong až/jestli vyjde?
