@@ -42,9 +42,5 @@ footer: MIT Licensed | Copyright © 2024-present MikeCZ
     <a href="readme/silksong" class="card">
       <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/library_600x900_2x.jpg" alt="Silksong">
     </a>
-    <a href="readme/Infection" class="card card-public">
-      <div class="label label-public">Veřejná verze</div>
-      <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900_2x.jpg?t=1721928496" alt="Infection">
-    </a>
   </div>
 </div>
