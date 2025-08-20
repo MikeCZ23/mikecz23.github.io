@@ -28,6 +28,16 @@ outline: [2, 4]
 };
 </script>
 
+  <div style="max-width: 600px" class="alert-custom">
+    <el-alert
+      title="Info"
+      type="warning"
+      description=" Otevřený nábor překladatelů"
+      :closable="false"
+      show-icon
+    />
+  </div>
+
 <div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px;">
   <img src=" ">
 </div> 
