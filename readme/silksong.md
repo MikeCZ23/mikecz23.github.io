@@ -59,10 +59,6 @@ outline: [2, 4]
 
 ------------
 
-
-## Známé chyby
-
-
 ## Členové týmu
 
 Na překladu se podílejí následující lidé:
@@ -76,10 +72,6 @@ Na překladu se podílejí následující lidé:
 <PTeamMembers :members="people.partners" />
 
 ---
-## Hlášení
-
-
-## Ke stažení
 
 
 
