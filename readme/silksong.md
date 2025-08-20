@@ -79,9 +79,6 @@ Na překladu se podílejí následující lidé:
 ## Hlášení
 
 
-### Instalace
-
-
 ## Ke stažení
 
 
