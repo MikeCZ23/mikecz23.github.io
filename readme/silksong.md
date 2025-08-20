@@ -13,7 +13,7 @@ outline: [2, 4]
     { name: "", role: ""}
   ],
   l10n: [
-    { name: "", role: ", "},
+    { name: "", role: ""},
     { name: "", role: ""},
     { name: "", role: ""},
     { name: "", role: ""},
@@ -59,6 +59,7 @@ outline: [2, 4]
 
 ------------
 
+
 ## Známé chyby
 
 
@@ -75,6 +76,9 @@ Na překladu se podílejí následující lidé:
 <PTeamMembers :members="people.partners" />
 
 ---
+## Hlášení
+
+
 ### Instalace
 
 
