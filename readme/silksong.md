@@ -32,7 +32,7 @@ outline: [2, 4]
     <el-alert
       title="Info"
       type="warning"
-      description=" Otevřený nábor překladatelů. Zájemci ať mi napíšou do komentářů. Pokud jste loremasteři, jen velké plus."
+      description=" Otevřený nábor překladatelů. Zájemci ať mi napíšou do komentářů nebo na discord `mikecz95`. Pokud jste loremasteři, jen velké plus."
       :closable="false"
       show-icon
     />
