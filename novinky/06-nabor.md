@@ -11,5 +11,5 @@ Nábor překladatelů na Silksong
 </PBlogHeader>
 
 ::: info INFO
-Sháním pomoc s překladem na Silksong. Zajemci ať se mi ozvou.
+Sháním pomoc s překladem na Silksong. Zajemci ať se mi ozvou. Ideálně loremasteři
 :::
