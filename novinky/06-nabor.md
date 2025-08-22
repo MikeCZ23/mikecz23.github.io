@@ -1,7 +1,7 @@
 ---
 title: 06. Nábor překladatelů - Silksong
 date: 2025-08-22
-comments: false
+comments: true
 lastUpdated: false
 editLink: false
 ---
