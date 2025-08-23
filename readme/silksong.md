@@ -13,10 +13,10 @@ outline: [2, 4]
     { name: "MikeCZ", role: "Vedení projektu"}
   ],
   l10n: [
-    { name: "", role: "Překlad"},
+    { name: "", role: ""},
   ],
   support: [
-    { name: "", role: "Technika, fonty"},
+    { name: "", role: ""},
   ],
   partners: [
     { name: "", role: "", url: ""},
