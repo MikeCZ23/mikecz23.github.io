@@ -10,7 +10,7 @@ outline: [2, 4]
 <script setup lang="ts">
   const people = {
   lead: [
-    { name: "", role: ""}
+    { name: "MikeCZ", role: "Vedení projektu"}
   ],
   l10n: [
     { name: "", role: ""},
