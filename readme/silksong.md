@@ -5,6 +5,10 @@ author: MikeCZ
 publish: false
 editLink: false
 lastUpdated: false
+tags:
+  - Silksong
+  - Čeština
+category: Češtiny
 outline: [2, 4]
 ---
 <script setup lang="ts">
