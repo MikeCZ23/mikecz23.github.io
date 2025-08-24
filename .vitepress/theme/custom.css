@@ -222,6 +222,9 @@ img{
 .card-early {
   border-color: var(--card-early);
 }
+.card-wip {
+	border-color: var(--vp-c-brand-1);
+}
 
 .card .label {
   position: absolute;
@@ -251,6 +254,9 @@ img{
 }
 .label-early {
   background-color: var(--card-early);
+}
+.label-wip {
+	background-color: var(--vp-c-brand-1);
 }
 
 .hero-content .name{
