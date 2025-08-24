@@ -168,6 +168,7 @@ export default defineConfig({
       { text: '<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg" width="15px" height="15px"> Češtiny', items: [
  //       { text: 'MikeCZ', items: [
           { text: "Hollow Knight", link: "/readme/hollow", activeMatch: "/hollow/"},
+          { text: "Silksong", link: "/readme/silksong", activeMatch: "/silksong/"},
           { text: "Plague Inc", link: "/readme/plague", activeMatch: "/plague/" },
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"},
