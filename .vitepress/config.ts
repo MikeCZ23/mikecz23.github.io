@@ -171,8 +171,7 @@ export default defineConfig({
           { text: "Silksong", link: "/readme/silksong", activeMatch: "/silksong/"},
           { text: "Plague Inc", link: "/readme/plague", activeMatch: "/plague/" },
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
-          { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"},
-          { text: 'Infection Free Zone', link: '/readme/Infection', activeMatch: "/Infection/"}]},
+          { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"}]},
       { text: '🛠️ Software', items: [
         	{ text: "‎XUnity.StringProcessor", link: "/readme/XUnity.StringProcessor", activeMatch: "/XUnity.StringProcessor/"}]},
  //       { text: 'Pertim', items: [
