@@ -21,10 +21,3 @@ Módy zajišťuje Scarab. Takže chyba je v něm. Přeinstaluj ho do prázdné s
 ::: details Nešlo by dát češtinu přímo do Scaraba?
 Pro mě moc složitý. Asi by to šlo.
 :::
-
- <h3>Silksong</h3>
- 
-::: details Jak se dostat do překladatelského týmu?
-Napiš do komentářů pod překlad nebo mi napiš na discord  #mikecz95
-:::
-
