@@ -67,7 +67,10 @@ outline: [2, 4]
 ![](https://img.shields.io/badge/verze%20hry-xxx-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-xxx-grey?style=for-the-badge)
 
+Poslední aktualizace: 
+
 ------------
+Popisek
 
 ## Členové týmu
 
@@ -83,6 +86,7 @@ Na překladu se podílejí následující lidé:
 
 ---
 
+## Galerie
 
 
 
