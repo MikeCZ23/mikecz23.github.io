@@ -32,7 +32,7 @@ outline: [2, 4]
     <el-alert
       title="Info"
       type="warning"
-      description=" Otevřený nábor překladatelů. Zájemci ať mi napíšou do komentářů nebo na discord [#mikecz95]. Pokud jste loremasteři, jen velké plus."
+      description=" Otevřený nábor překladatelů. Více info níže."
       :closable="false"
       show-icon
     />
@@ -89,7 +89,7 @@ Na překladu se podílejí následující lidé:
 
 ## FAQ
 ::: details Jak se dostat do překladatelského týmu?
-Napiš do komentářů pod překlad nebo mi napiš na discord  #mikecz95
+Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95`. Pokud jste loremasteři, jen velké plus.
 :::
 
 
