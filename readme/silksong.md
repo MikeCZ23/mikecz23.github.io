@@ -66,7 +66,6 @@ outline: [2, 4]
 ![](https://img.shields.io/badge/herní%20klient-xxx-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20hry-xxx-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-xxx-grey?style=for-the-badge)
-
 Poslední aktualizace: 
 
 ------------
@@ -83,8 +82,6 @@ Na překladu se podílejí následující lidé:
 <PTeamMembers :members="people.support" />
 
 <PTeamMembers :members="people.partners" />
-
----
 
 ## Galerie
 
