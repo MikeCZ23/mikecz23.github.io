@@ -88,7 +88,9 @@ Na překladu se podílejí následující lidé:
 
 
 ## FAQ
-
+::: info
+Q&A najdete <a href="https://mikecz23.github.io/faq">zde</a>.
+:::
 
 
 <el-divider />
