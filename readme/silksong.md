@@ -67,10 +67,10 @@ outline: [2, 4]
 ![](https://img.shields.io/badge/verze%20hry-xxx-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-xxx-grey?style=for-the-badge)
 <br>
-Poslední aktualizace: 
+Poslední aktualizace: 01.01.1900 
 
 ------------
-Popisek
+Vydej se na smrtící pouť skrz strašidelný svět plný krásy, tajemství a nebezpečí. V roli Hornet, princezny a ochránkyně Hallownestu, se ocitáš v neznámé zemi, kde tě čeká boj o přežití, hledání spojenců a odhalování dávných záhad. Ovládni nové akrobatické pohyby a schopnosti. Vyráběj smrtící nástroje, abys překonala více než 150 zcela nových nepřátel – od králů po monstra. Prozkoumej ručně kreslený 2D svět plný zlatých měst, ohnivých jezer a mlhavých močálů, doprovázený emotivním orchestrálním soundtrackem od oceněného skladatele Christophera Larkina. Hollow Knight: Silksong je epické dobrodružství, které tě zavede až na vrchol tajemného království.
 
 ## Členové týmu
 
@@ -88,8 +88,8 @@ Na překladu se podílejí následující lidé:
 
 
 ## FAQ
-::: info
-Q&A najdete <a href="https://mikecz23.github.io/faq">zde</a>.
+::: details Jak se dostat do překladatelského týmu?
+Napiš do komentářů pod překlad nebo mi napiš na discord  #mikecz95
 :::
 
 
