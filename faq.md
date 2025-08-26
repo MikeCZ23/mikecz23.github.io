@@ -15,14 +15,23 @@ Zatím nijak, ale díky :blush:
 :::
 
 ::: details Mám problém u Hollow Knighta - nejde mi čeština co s tím?
-Módy zajišťuje Scarab. Pokud nemáš v hlavním menu hry vlevo nahoře log, nefunfuje. zkus přeinstalovat Scaraba.
+Módy zajišťuje Scarab. Takže chyba je v něm. Přeinstaluj ho do prázdné složky
 :::
 
 ::: details Nešlo by dát češtinu přímo do Scaraba?
 Pro mě moc složitý. Asi by to šlo.
 :::
 
-::: details Budeš dělat i Silksong až/jestli vyjde?
-Pravěpodobně. Ale nejsem loremaster takže to bude záviset jestli seženu tým.
+ <h3>Silksong</h3>
+::: details
+
+:::
+
+::: details
+
+:::
+
+::: details
+
 :::
 
