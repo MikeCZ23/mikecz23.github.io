@@ -87,6 +87,7 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 
+## FAQ
 
 
 
