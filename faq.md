@@ -28,11 +28,3 @@ Pro mě moc složitý. Asi by to šlo.
 Napiš do komentářů pod překlad nebo mi napiš na discord  #mikecz95
 :::
 
-::: details
-
-:::
-
-::: details
-
-:::
-
