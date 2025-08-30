@@ -38,6 +38,8 @@ outline: [2, 4]
     />
   </div>
 
+<br>
+
 <div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px;">
   <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/70d7e70ae2fd0f8a46661d4a425cd84479dc7a61/library_hero_2x.jpg?t=1756279645">
 </div> 
