@@ -94,6 +94,10 @@ Na překladu se podílejí následující lidé:
 Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95`. Pokud jste loremasteři, jen velké plus.
 :::
 
+::: details Co mám během čekání na češtinu jako dělat?
+Nevím. třeba si zapni rádio nahoře v liště. 📻↗️
+:::
+
 
 <el-divider />
 
