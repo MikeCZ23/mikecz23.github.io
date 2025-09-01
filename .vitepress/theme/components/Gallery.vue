@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { withBase } from 'vitepress'
-import "@/styles/gallery.css"   // ✅ externí CSS přes alias
+import '../styles/gallery.css'
 
 const props = defineProps<{
   images: string[] | string
@@ -95,3 +95,4 @@ const nextImage = () => { if (activeIndex.value! < list.value.length - 1) active
   </div>
   <div v-else class="gallery-empty">No images.</div>
 </template>
+
