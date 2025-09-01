@@ -139,5 +139,7 @@ const nextImage = () => { if (activeIndex.value! < list.value.length - 1) active
 .prev{left:30px}
 .next{right:30px}
 
+button{padding:0 !important}
 button:disabled{opacity:.3;cursor:default}
 </style>
+
