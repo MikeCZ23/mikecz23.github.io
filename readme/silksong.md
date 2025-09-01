@@ -89,8 +89,8 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['img/one.jpg', 'img/one.jpg', 'img/one.jpg']" 
-  :captions="['Popisek 1','Popisek 2','Popisek 3']" 
+  :images="['https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp']" 
+  :captions="['Popisek 1']" 
 />
 
 ## FAQ
