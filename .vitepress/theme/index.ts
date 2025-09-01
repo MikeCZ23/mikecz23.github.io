@@ -15,7 +15,7 @@ import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import './BtP-style.css'
 import vitepressLifeProgress from '../../plugins/vitepress-plugin-life-progress'
 import '../../plugins/vitepress-plugin-life-progress/lib/css/index.css'
-import Gallery from './components/Gallery.vue'
+// import Gallery from './components/Gallery.vue'
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -38,7 +38,7 @@ export default {
     app.component("PDateString", PDateString);
     app.component("PTeamMembers", PTeamMembers);
 
-    app.component("Gallery", Gallery)
+   // app.component("Gallery", Gallery)
     
     app.use(ElementPlus)
 
