@@ -38,7 +38,7 @@ export default {
     app.component("PDateString", PDateString);
     app.component("PTeamMembers", PTeamMembers);
 
-    app.component("Gallery", Gallery);
+    app.component("Gallery", Gallery)
     
     app.use(ElementPlus)
 
