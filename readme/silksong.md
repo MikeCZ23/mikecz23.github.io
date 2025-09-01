@@ -88,6 +88,10 @@ Na překladu se podílejí následující lidé:
 
 ## Galerie
 
+<Gallery 
+  :images="['https://totalapexgaming.com/wp-content/uploads/2025/08/Hollow-Knight-Silksong-release-date.webp', ' ', ' ']" 
+  :captions="['Popisek 1','Popisek 2','Popisek 3']" 
+/>
 
 ## FAQ
 ::: details Jak se dostat do překladatelského týmu?
