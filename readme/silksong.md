@@ -88,10 +88,7 @@ Na překladu se podílejí následující lidé:
 
 ## Galerie
 
-<Gallery 
-  :images="['img/one.jpg', 'img/one.jpg', 'img/one.jpg']" 
-  :captions="['Popisek 1','Popisek 2','Popisek 3']" 
-/>
+
 
 ## FAQ
 ::: details Jak se dostat do překladatelského týmu?
