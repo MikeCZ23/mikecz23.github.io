@@ -89,7 +89,7 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Ftr2c9ravjyhe1.png']" 
+  :images="['https://i.redd.it/tr2c9ravjyhe1.png']" 
   :captions="['Popisek 1']" 
 />
 
