@@ -108,7 +108,7 @@ const nextImage = () => { if (activeIndex.value! < list.value.length - 1) active
 .lightbox-caption{margin-top:10px;color:#666;font-size:16px;text-align:center;max-width:80vw;}
 
 .carousel{margin-top:15px;display:flex;gap:8px;overflow-x:auto;padding:5px;}
-.carousel-thumb{width:80px;height:auto;cursor:pointer;border-radius:4px;flex:0 0 auto;transition:transform 0.2s,filter 0.2s,opacity 0.2s;filter:grayscale(1);opacity:0.6;}
+.carousel-thumb{width:60px;height:auto;cursor:pointer;border-radius:4px;flex:0 0 auto;transition:transform 0.2s,filter 0.2s,opacity 0.2s;filter:grayscale(1);opacity:0.6;}
 .carousel-thumb:hover{transform: scale(1.05);opacity: 0.8;}
 .carousel-thumb.active{filter: none;opacity: 1;border: 2px solid #fff;}
 
@@ -142,5 +142,6 @@ const nextImage = () => { if (activeIndex.value! < list.value.length - 1) active
 button{padding:0 !important}
 button:disabled{opacity:.3;cursor:default}
 </style>
+
 
 
