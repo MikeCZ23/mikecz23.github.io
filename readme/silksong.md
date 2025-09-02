@@ -41,7 +41,7 @@ outline: [2, 4]
 <br>
 
 <div style="border-radius: 16px; overflow: hidden; margin-bottom: 16px;">
-  <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/70d7e70ae2fd0f8a46661d4a425cd84479dc7a61/library_hero_2x.jpg?t=1756279645">
+  <img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Ftr2c9ravjyhe1.png">
 </div> 
 
 # Hollow Knight: Silksong – Čeština
