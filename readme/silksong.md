@@ -94,13 +94,11 @@ Na překladu se podílejí následující lidé:
 />
 
 ## FAQ
-::: details Jak se dostat do překladatelského týmu?
-Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95`. Pokud jste loremasteři, jen velké plus.
-:::
+<b>Jak se dostat do překladatelského týmu?</b><br>
+Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95`. Pokud jste loremasteři, jen velké plus.<br>
 
-::: details Co mám během čekání na češtinu jako dělat?
+<b>Co mám během čekání na češtinu jako dělat?</b><br>
 Sedni si na lavičku a čekej. Nebo si zapni rádio nahoře v liště. 📻↗️
-:::
 
 
 <el-divider />
