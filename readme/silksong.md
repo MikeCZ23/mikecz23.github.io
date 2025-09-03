@@ -99,7 +99,7 @@ Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95`. Pokud jste l
 :::
 
 ::: details Co mám během čekání na češtinu jako dělat?
-Nevím. třeba si zapni rádio nahoře v liště. 📻↗️
+Sedni si na lavičku a čekej. Nebo si zapni rádio nahoře v liště. 📻↗️
 :::
 
 
