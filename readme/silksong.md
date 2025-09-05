@@ -89,7 +89,7 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['../public/one.png']"
+  :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png']"
   :captions="['Main Menu']" 
 />
 
