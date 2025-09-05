@@ -89,8 +89,8 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['https://i.redd.it/tr2c9ravjyhe1.png']" 
-  :captions="['Popisek 1']" 
+  :images="['img/01.png']" 
+  :captions="['Main Menu']" 
 />
 
 ## FAQ
