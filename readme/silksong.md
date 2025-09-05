@@ -55,7 +55,7 @@ outline: [2, 4]
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><a title="Crowdin" target="_blank" href="https://crowdin.com/project/hollow-knight-cze"><img src="https://badges.crowdin.net/hollow-knight-cze/localized.svg"></a></div>
+  <div class="progpr" style="flex: 1"><img src="https://badges.crowdin.net/hollow-knight-cze/localized.svg"></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
