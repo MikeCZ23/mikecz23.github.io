@@ -17,6 +17,7 @@ outline: [2, 4]
     { name: "MikeCZ", role: "Vedení projektu"}
   ],
   l10n: [
+    { name: "martin.kostka", role: "Překlad"},
     { name: "", role: "Překlad"},
   ],
   support: [
