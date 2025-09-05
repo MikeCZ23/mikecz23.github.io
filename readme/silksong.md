@@ -89,7 +89,7 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['img/one.png']"
+  :images="['../public/one.png']"
   :captions="['Main Menu']" 
 />
 
