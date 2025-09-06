@@ -87,6 +87,7 @@ Na překladu se podílejí následující lidé:
 <PTeamMembers :members="people.partners" />
 
 ## Galerie
+<h6>Screeny neodpovídají konečnýmu produktu</h6>
 
 <Gallery 
   :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png']"
