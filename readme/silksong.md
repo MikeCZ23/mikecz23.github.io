@@ -55,7 +55,7 @@ outline: [2, 4]
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><img src="https://badges.crowdin.net/hollow-knight-cze/localized.svg"></div>
+  <div class="progpr" style="flex: 1"><div class="el-progress-bar"><img src="https://badges.crowdin.net/hollow-knight-cze/localized.svg"></div></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
