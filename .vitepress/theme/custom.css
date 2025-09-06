@@ -415,7 +415,7 @@ margin-left: -6px;
   position: relative;
   max-width: 5000px;
   margin-left: 7em;
-  border: 3px solid var(--el-border-color-lighter); 
+ /* border: 3px solid var(--el-border-color-lighter); */ /*** Ohraničení progress baru ***/
   border-radius: var(--outer-radius);
   --outer-radius: 50px; /* FOCUS SEM */
   color:var(--vp-c-text-1);
