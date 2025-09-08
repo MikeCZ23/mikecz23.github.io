@@ -19,6 +19,7 @@ outline: [2, 4]
   l10n: [
     { name: "martin.kostka", role: "Překlad"},
     { name: "desoloSVK", role: "Překlad"},
+    { name: "Manz_z", role: "Překlad, Korektura"},
   ],
   support: [
     { name: "", role: ""},
