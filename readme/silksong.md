@@ -56,7 +56,7 @@ outline: [2, 4]
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><div class="el-progress-bar"><img src="https://badges.crowdin.net/hollow-knight-cze/localized.svg"></div></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="10" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
@@ -67,7 +67,7 @@ outline: [2, 4]
   <div class="progpr" style="flex: 1"><el-progress :percentage="0" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
 </div>
     
-![](https://img.shields.io/badge/herní%20klient-xxx-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20hry-xxx-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-xxx-grey?style=for-the-badge)
 <br>
