@@ -91,8 +91,8 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png']"
-  :captions="['Main Menu']" 
+  :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png', 'https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/02.png']"
+  :captions="['Main Menu', 'Map v1']" 
 />
 
 <h6>Screeny neodpovídají konečnýmu produktu</h6>
