@@ -21,6 +21,7 @@ outline: [2, 4]
     { name: "desoloSVK", role: "Překlad"},
     { name: "JoshTheSnom", role: "Překlad"},
     { name: "deer_god_K", role: "Překlad"},
+    { name: "zemenantonin", role: "Překlad"},
     { name: "Manz_z", role: "Překlad, Korektura"},
   ],
   support: [
