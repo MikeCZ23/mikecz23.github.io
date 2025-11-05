@@ -104,7 +104,7 @@ Na překladu se podílejí následující lidé:
 
 ## FAQ
 <b>Jak se dostat do překladatelského týmu?</b><br>
-Napiš dolů do komentářů nebo mi napiš na discord `#mikecz95` nebo napiš sem https://discord.gg/DrN5HQthpq<br>
+Napiš sem https://discord.gg/DrN5HQthpq Hlavně loremasteři jestli smím prosit.<br>
 
 <b>Co mám během čekání na češtinu jako dělat?</b><br>
 Sedni si na lavičku a čekej. Nebo si zapni rádio nahoře v liště. 📻↗️
