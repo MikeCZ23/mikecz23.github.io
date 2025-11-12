@@ -45,7 +45,7 @@ const { frontmatter, title } = useData();
       <div class="panel-title">Může vás zajímat</div>
 
       <!-- Nominační tlačítko -->
-      <a class="viteconf" href="#" target="_blank">
+      <a class="viteconf" href="#" target="_self">
         <img width="22" height="22" src="../../../public/icon.png" alt="ViteConf Logo"> 
         <span>
           <p class="extra-info">Děkujeme za přízeň</p>
