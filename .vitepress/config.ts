@@ -183,8 +183,8 @@ export default defineConfig({
     ],
 
     footer: { /* <span class="divider">|</span> */
-      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png" alt="License: CC BY-NC-ND 4.0" style="display: inline-block;height:15px!important;vertical-align:text-bottom;"><img style="height:15px!important;margin-left:0px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:15px!important;margin-left:-3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:15px!important;margin-left:-3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:15px!important;margin-left:-3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a><span class="divider">|</span> Powered by <a target="_blank" href="https://vitepress.dev/">VitePress <img src="https://vitepress.dev/vitepress-logo-large.webp" alt="Vite Logo" height="13px" width="13px" style="display: inline-block"></a>',
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="">MikeCZ</a>`,
+      message: '<span class="divider">|</span> Powered by <a target="_blank" href="https://vitepress.dev/">VitePress <img src="https://vitepress.dev/vitepress-logo-large.webp" alt="Vite Logo" height="13px" width="13px" style="display: inline-block"></a>',
+      copyright: `© ${new Date().getFullYear()} <a href="">MikeCZ</a>, všechna práva vyhrazena.`,
     },
 
     outline: {
