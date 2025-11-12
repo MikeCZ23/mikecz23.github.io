@@ -62,7 +62,7 @@ const people = {
 
 ![](https://img.shields.io/badge/přeloženo-100%25-darkgreen?style=for-the-badge)<br>
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-aktuální-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-2024-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-2024/11/11-grey?style=for-the-badge)
 
 ------------
