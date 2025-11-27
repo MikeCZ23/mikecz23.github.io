@@ -126,7 +126,8 @@ publish: false
     <el-alert
       title="INFO"
       type="info"
-      description="Veškerá práva patří jednotlivým rádiím.<br>Má to ve zvyku při přepnutí rádia hrát něco jiného než ve skutečnosti hraje takže doporučuji obnovit stránku a zapnout si rádio co chete."
+      description="Veškerá práva patří jednotlivým rádiím.
+      Má to ve zvyku při přepnutí rádia hrát něco jiného než ve skutečnosti hraje takže doporučuji obnovit stránku a zapnout si rádio co chete."
       :closable="false"
       show-icon
     />
