@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: Češtiny od MikeCZ
+title: Češtiny od Mike
 sidebar: false
 comments: false
 lastUpdated: false
@@ -9,7 +9,7 @@ editLink: false
 publish: false
 
 hero:
-  name: Češtiny od MikeCZ
+  name: Češtiny od Mike
   text: Vítej na profilu mých překladů her.
   tagline:
   image:
