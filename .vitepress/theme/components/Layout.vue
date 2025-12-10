@@ -49,7 +49,7 @@ const { frontmatter, title } = useData();
         <img width="22" height="22" src="../../../public/icon.png" alt="ViteConf Logo"> 
         <span>
           <p class="extra-info">Děkujeme za přízeň</p>
-          <p class="heading">🕯️</p>
+          <p class="heading">🕯️🕯️</p>
           <p class="extra-info">Zůstaňte s námi 😊</p>
         </span>
       </a>
