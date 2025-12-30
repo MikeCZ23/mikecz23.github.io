@@ -62,7 +62,7 @@ outline: [2, 4]
 
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
-  <div class="progpr" style="flex: 1"><el-progress :percentage="50" :stroke-width="18" :text-inside="true" status="success" striped /></div>
+  <div class="progpr" style="flex: 1"><el-progress :percentage="56" :stroke-width="18" :text-inside="true" status="success" striped /></div>
 </div>
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Korektura:</div>
