@@ -12,7 +12,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 const baseUrl = 'https://mikecz23.github.io'
 const RSS: RSSOptions = {
-  title: 'Češtiny od Mike',
+  title: 'Mikovy češtiny',
   baseUrl,
   copyright: 'Copyright (c) 2024-present',
   description: 'Fan Češtiny',
@@ -100,7 +100,7 @@ export default defineConfig({
     } */
   },
   
-  title: "Češtiny od Mike",
+  title: "Mikovy češtiny",
   cleanUrls: true,
   description: "Stránka mých překladů her.",
   cacheDir: './.vitepress/cache',
