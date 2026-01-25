@@ -25,6 +25,7 @@ outline: [2, 4]
     { name: "Uzer", role: "Překlad"},
     { name: "majernikmatus464", role: "Překlad"},
     { name: "WhoIsLag", role: "Překlad"},
+    { name: "JLai", role: "Překlad"},
     { name: "Manz_z", role: "Překlad, Korektura"},
   ],
   support: [
