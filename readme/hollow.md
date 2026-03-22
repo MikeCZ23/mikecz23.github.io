@@ -147,7 +147,7 @@ Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg c
 
 ## Ke stažení
 <div class="download-wrapper">
-  <a href="https://www.dropbox.com/scl/fi/5tpna05csgzojvlhsgcpv/HollowKnight-Czech.exe?rlkey=abj4xgakbxoh4sjdw4gyeq7vc&st=alhbd51o&dl=1" download id="download-link" target="_blank">Stáhnout</a>
+  <a href="https://lokalizace.net/localizations/hollow-knight" target="_blank" download id="download-link">Přejit ke stažení</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#888888" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
   <div class="download-count" v-text="downloadCount"></div>
 </div>
 
