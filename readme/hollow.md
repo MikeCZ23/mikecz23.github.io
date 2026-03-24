@@ -214,4 +214,10 @@ Exáč se o vše postará. Hlavně splň požadavky. <a href="#pozadavky"><svg c
   color: rgba(255, 255, 245, 0.86);
   text-decoration: none;
 }
+
+svg.svgicons {
+    display: inline;
+    position: relative;
+    bottom: 5px;
+}
 </style>
