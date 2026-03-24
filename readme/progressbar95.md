@@ -86,8 +86,10 @@ Na překladu se podílejí následující lidé:
 cesta: Progressbar95\Resources\international\en <br />
 
 ## Ke stažení
-<div class="download-wrapper">
-  <a href="https://www.dropbox.com/scl/fi/wy3jpyxcydhk2s54lnav6/Progressbar95-Czech.7z?rlkey=6z5xn804mbv34d9twaybag005&st=2m6f12bj&dl=1" download id="download-link" target="_self">Stáhnout</a>
+<div class="download-block">
+  <a href="https://lokalizace.net/localizations/hollow-knight" download id="download-link" target="_blank" class="download-button">Přejít ke stažení
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icons"><path fill="#ccc" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg></a>
+  <div class="download-divider"></div>
   <div class="download-count" v-text="downloadCount"></div>
 </div>
 
@@ -95,7 +97,62 @@ cesta: Progressbar95\Resources\international\en <br />
 
 
 
+<style>
+  .download-block {
+  height: 45px;
+  display: inline-flex; /* Flexbox pro zarovnání vedle sebe */
+  align-items: center; /* Vertikální zarovnání */
+  border: 2px solid #000; /* Černý rámeček kolem bloku */
+  border-radius: 8px; /* Zaoblené rohy */
+  overflow: hidden; /* Skrýt přesahující obsah */
+}
 
+.download-button {
+  background-color: rgb(202, 73, 73); /* Světle červené pozadí tlačítka */
+  color: white; /* Bílý text */
+  border: none; /* Bez rámečku */
+  padding: 10px 20px; /* Vnitřní odsazení */
+  font-size: 1rem; /* Velikost textu */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Přechod barvy */
+  text-shadow: 1px 1px 5px #111, 1px 1px 1px #111;
+}
+
+.download-button:hover {
+  background-color: rgb(158 50 50); /* Tmavší červená při hoveru */
+}
+
+.download-divider {
+  width: 1px; /* Tloušťka čáry */
+  height: 45px; /* Pevná výška */
+  background-color: #666; /* Jasně zelená barva */
+  border: none; /* Žádný rámeček */
+  display: inline-block; /* Ujistí viditelnost */
+}
+
+.download-count {
+  background-color: #333; /* Tmavě šedé pozadí */
+  color: #ccc; /* Bílý text */
+  padding: 10px 10px; /* Vnitřní odsazení */
+  text-align: center; /* Zarovnání na střed */
+  font-size: 0.8rem; /* Velikost textu */
+  font-weight: bold;
+  pointer-events: none; /* Zákaz klikání */
+  user-select: none; /* Zákaz označení textu */
+}
+
+#download-link {
+  color: rgba(255, 255, 245, 0.86);
+  text-decoration: none;
+}
+
+svg.svgicons {
+    display: inline;
+    position: relative;
+    bottom: 5px;
+}
+</style>
 
 
 
