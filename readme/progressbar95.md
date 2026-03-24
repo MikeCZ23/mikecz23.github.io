@@ -87,8 +87,7 @@ cesta: Progressbar95\Resources\international\en <br />
 
 ## Ke stažení
 <div class="download-block">
-  <a href="https://www.dropbox.com/scl/fi/wy3jpyxcydhk2s54lnav6/Progressbar95-Czech.7z?rlkey=6z5xn804mbv34d9twaybag005&st=kiy44c24&dl=1" download id="download-link" target="_blank" class="download-button">Přejít ke stažení
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="svgicons"><path fill="#ccc" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg></a>
+  <a href="https://www.dropbox.com/scl/fi/wy3jpyxcydhk2s54lnav6/Progressbar95-Czech.7z?rlkey=6z5xn804mbv34d9twaybag005&st=kiy44c24&dl=1" download id="download-link" target="_blank" class="download-button">Stáhnout</a>
   <div class="download-divider"></div>
   <div class="download-count" v-text="downloadCount"></div>
 </div>
