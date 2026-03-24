@@ -143,7 +143,7 @@ nahradí to Češtinu
 
 ## Ke stažení
 <div class="download-block">
-   <a target="_self" download id="download-link" class="disabled">Stáhnout</a>
+   <a target="_self" download id="download-link" class="download-button disabled">Stáhnout</a>
    <div class="download-divider"></div>
  <!--  <div class="download-count" v-text="downloadCount"></div> -->
 </div>
