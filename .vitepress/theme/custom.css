@@ -186,13 +186,13 @@ img{
   /* color: #0057b8; */
 }
 
-.download-count {
-  display: inline-flex; /* Flexbox pro centrování textu */
-  align-items: center; /* Vertikální zarovnání textu */
-  justify-content: center; /* Horizontální zarovnání textu */
-  min-width: 25px; /* Minimální šířka (pro jednociferná čísla) */
+/* .download-count {
+  display: inline-flex; /* Flexbox pro centrování textu
+  align-items: center; /* Vertikální zarovnání textu 
+  justify-content: center; /* Horizontální zarovnání textu 
+  min-width: 25px; /* Minimální šířka (pro jednociferná čísla) 
   height: 25px;
-  padding: 0 8px; /* Vnitřní odsazení pro delší text */
+  padding: 0 8px; /* Vnitřní odsazení pro delší text 
   border: 1px solid rgb(198, 75, 69);
   border-radius: 4px;
   text-align: center;
@@ -200,10 +200,10 @@ img{
   font-size: 0.8rem;
   color:rgb(198, 75, 69);
   background-color: #333;
-  line-height: 24px; /* centrování textu vertikálně */
-  user-select: none; /* Zakáže označení textu */
-  white-space: nowrap; /* Zabrání zalomení textu */
-}
+  line-height: 24px; /* centrování textu vertikálně 
+  user-select: none; /* Zakáže označení textu 
+  white-space: nowrap; /* Zabrání zalomení textu 
+} */
 
 /************************ Nové styly pro .card a nálepku *****************************/
 .card {
