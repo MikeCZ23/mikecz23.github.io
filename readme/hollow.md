@@ -143,7 +143,8 @@ Na překladu se podílejí následující lidé:
 </div>
 
 ## Instalace
-Složku co je v zipu vlož do root složky hry. Nahrazuje Němčinu <!-- <a href="#pozadavky"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a> -->
+Složku co je v zipu vlož do root složky hry. Nahrazuje Němčinu <br>
+Instalator vytvořím v budoucnu<!-- <a href="#pozadavky"><svg class="svg footnote" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 14.5v-2a3 3 0 0 0-3-3h-8"/><path d="m7.5 12.5l-3.001-3l3.001-3"/></g></svg></a> -->
 
 ## Ke stažení
 <div class="download-block">
