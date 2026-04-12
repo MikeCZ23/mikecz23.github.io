@@ -169,7 +169,6 @@ export default defineConfig({
  //       { text: 'MikeCZ', items: [
           { text: "Hollow Knight", link: "/readme/hollow", activeMatch: "/hollow/"},
           { text: "Silksong", link: "/readme/silksong", activeMatch: "/silksong/"},
-          { text: "Plague Inc", link: "/readme/plague", activeMatch: "/plague/" },
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"}]},
       { text: '🛠️ Software', items: [
