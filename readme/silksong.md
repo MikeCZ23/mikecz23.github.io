@@ -98,8 +98,8 @@ Na překladu se podílejí následující lidé:
 ## Galerie
 
 <Gallery 
-  :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png', 'https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/02.png']"
-  :captions="['Main Menu', 'Map v1']" 
+  :images="['https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/01.png', 'https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/02.png', 'https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/refs/heads/main/public/03.png']"
+  :captions="['Main Menu', 'Map', 'Pako']" 
 />
 
 <h6>Screeny neodpovídají konečnýmu produktu</h6>
