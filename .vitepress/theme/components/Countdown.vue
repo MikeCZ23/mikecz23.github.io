@@ -4,6 +4,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const days = ref(0)
 const hours = ref(0)
 const minutes = ref(0)
+const seconds = ref(0)
 
 const target = new Date('2026-08-24T12:00:00+02:00').getTime()
 
@@ -15,6 +16,7 @@ function update() {
   days.value = Math.floor(diff / 86400000)
   hours.value = Math.floor((diff % 86400000) / 3600000)
   minutes.value = Math.floor((diff % 3600000) / 60000)
+  seconds.value = Math.floor((diff % 60000) / 1000)
 }
 
 onMounted(() => {
@@ -44,6 +46,13 @@ onUnmounted(() => clearInterval(timer))
     <div class="unit">
       <strong>{{ String(minutes).padStart(2, '0') }}</strong>
       <span>MINUTES</span>
+    </div>
+
+    <div class="separator">:</div>
+
+    <div class="unit">
+      <strong>{{ String(seconds).padStart(2, '0') }}</strong>
+      <span>SECONDS</span>
     </div>
   </div>
 </template>
