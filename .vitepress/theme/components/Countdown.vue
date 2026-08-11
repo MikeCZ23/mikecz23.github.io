@@ -5,7 +5,7 @@ const days = ref(0)
 const hours = ref(0)
 const minutes = ref(0)
 
-const target = new Date('2026-08-24T13:36:00+02:00').getTime()
+const target = new Date('2026-08-24T12:00:00+02:00').getTime()
 
 let timer
 
