@@ -102,7 +102,9 @@ Na překladu se podílejí následující lidé:
   :captions="['Main Menu', 'Map', 'Pavo']" 
 />
 
-<h6>Screeny neodpovídají konečnýmu produktu</h6>
+## Instalace
+Nahrazuje Angličtinou <br>
+Spusť instalator a on udělá vše za tebe
 
 ## Ke stažení
 <Countdown />
