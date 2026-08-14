@@ -83,6 +83,10 @@ outline: [2, 4]
 ------------
 Vydej se na smrtící pouť skrz strašidelný svět plný krásy, tajemství a nebezpečí. V roli Hornet, princezny a ochránkyně Hallownestu, se ocitáš v neznámé zemi, kde tě čeká boj o přežití, hledání spojenců a odhalování dávných záhad. Ovládni nové akrobatické pohyby a schopnosti. Vyráběj smrtící nástroje, abys překonala více než 150 zcela nových nepřátel – od králů po monstra. Prozkoumej ručně kreslený 2D svět plný zlatých měst, ohnivých jezer a mlhavých močálů, doprovázený emotivním orchestrálním soundtrackem od oceněného skladatele Christophera Larkina. Hollow Knight: Silksong je epické dobrodružství, které tě zavede až na vrchol tajemného království.
 
+## Známé chyby
+- ❗Na Xbox GamePassu nejede❗
+- Skloňování může být trochu nesmyslné <br />
+
 ## Členové týmu
 
 Na překladu se podílejí následující lidé:
