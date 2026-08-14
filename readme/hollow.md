@@ -141,7 +141,7 @@ Na překladu se podílejí následující lidé:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=IQe0R4bIUonT-6Ib&amp;list=PLDyEBUIwzAFA-v9MwBdW6ZmZ_TzCNCLNp" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Instalace
+## Instalace
 Nahrazuje Němčinu <br>
 Spusť instalator a on udělá vše za tebe
 
