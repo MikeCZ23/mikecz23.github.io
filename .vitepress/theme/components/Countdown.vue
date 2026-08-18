@@ -69,6 +69,9 @@ onUnmounted(() => clearInterval(timer))
   border: 1px solid rgba(141, 28, 43, 0.6);
   background: rgba(0, 0, 0, 0.15);
   border-radius: 15px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .unit {
@@ -98,5 +101,55 @@ onUnmounted(() => clearInterval(timer))
   font-family: Georgia, serif;
   font-size: 60px;
   color: #8d1c2b;
+}
+
+  
+
+@media (max-width: 600px) {
+  .countdown {
+    gap: 6px;
+    padding: 20px 8px;
+  }
+
+  .unit {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .unit strong {
+    font-size: clamp(24px, 9vw, 34px);
+  }
+
+  .unit span {
+    margin-top: 7px;
+    font-size: 7px;
+    letter-spacing: 1.5px;
+  }
+
+  .separator {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .countdown {
+    gap: 3px;
+    padding: 16px 4px;
+  }
+
+  .unit strong {
+    font-size: 24px;
+  }
+
+  .unit span {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+
+  .separator {
+    font-size: 26px;
+  }
 }
 </style>
