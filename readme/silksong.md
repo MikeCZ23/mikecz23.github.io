@@ -65,7 +65,7 @@ outline: [2, 4]
 </div>
     
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-1.0.3000-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-1.0.30000-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20překladu-0.1-grey?style=for-the-badge)
 <br>
 
