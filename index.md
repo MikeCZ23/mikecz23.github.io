@@ -27,8 +27,8 @@ footer: MIT Licensed | Copyright © 2024-present MikeCZ
       <div class="label label-public">Veřejná verze</div>
       <img src="https://raw.githubusercontent.com/MikeCZ23/mikecz23.github.io/main/public/hollow.jpg" alt="Hollow">
     </a>
-    <a href="readme/silksong" class="card card-wip">
-      <div class="label label-wip">Překládá se</div>
+    <a href="readme/silksong" class="card card-early">
+      <div class="label label-early">Alpha</div>
       <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/library_600x900_2x.jpg" alt="Silksong">
     </a>
 <!--    <a href="readme/plague" class="card card-early">
