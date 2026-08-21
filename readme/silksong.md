@@ -151,11 +151,11 @@ Spusť instalator a on udělá vše za tebe
 ## Ke stažení
 <Countdown />
 
-<div class="download-block">
-   <a target="_self" download id="download-link" class="download-button disabled">Stáhnout</a>
+<!-- <div class="download-block">
+   <a href="" target="_self" download id="download-link" class="download-button disabled">Stáhnout</a>
    <div class="download-divider"></div>
    <div class="download-count" v-text="downloadCount"></div>
-</div>
+</div> -->
 
 <el-divider />
 
