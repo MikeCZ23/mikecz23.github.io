@@ -12,6 +12,55 @@ category: Češtiny
 outline: [2, 4]
 ---
 <script setup lang="ts">
+//import { onMounted, onUnmounted } from 'vue';
+
+//onMounted(() => {
+// document.body.classList.add('special-page');
+//});
+
+//onUnmounted(() => {
+// document.body.classList.remove('special-page');
+//});
+  
+import { ref, onMounted } from 'vue';
+
+// Zadej sem svůj unikátní identifikátor (např. "projekt1")
+const fileId = 'silk';
+
+// Sestav URL s parametrem file podle ID
+const apiUrl = `https://mikeproject.4fan.cz/update.php?file=${fileId}`;
+
+// Reaktivní proměnná pro počet stažení
+const downloadCount = ref('Načítám počet stažení...');
+
+async function loadCounter() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    downloadCount.value = data.count;
+  } catch {
+    downloadCount.value = 'Nepodařilo se načíst počet stažení.';
+  }
+}
+
+async function incrementCounter() {
+  try {
+    await fetch(apiUrl, { method: 'POST' });
+    await loadCounter();
+  } catch {
+    console.error('Chyba při zvyšování počítadla');
+  }
+}
+
+onMounted(() => {
+  loadCounter();
+  const downloadLink = document.getElementById('download-link');
+  if (downloadLink) {
+    downloadLink.addEventListener('click', incrementCounter);
+  }
+});
+
+  
   const people = {
   lead: [
     { name: "MikeCZ", role: "Vedení projektu"}
