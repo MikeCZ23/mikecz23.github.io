@@ -102,6 +102,11 @@ Spusť instalator a on udělá vše za tebe
 ## Ke stažení
 <Countdown />
 
+<div class="download-block">
+   <a target="_self" download id="download-link" class="download-button disabled">Stáhnout</a>
+   <div class="download-divider"></div>
+ <!--  <div class="download-count" v-text="downloadCount"></div> -->
+</div>
 
 <el-divider />
 
@@ -109,5 +114,59 @@ Spusť instalator a on udělá vše za tebe
 .disabled{
   cursor: not-allowed;
   opacity: 0.5;
+}
+.download-block {
+  height: 45px;
+  display: inline-flex; /* Flexbox pro zarovnání vedle sebe */
+  align-items: center; /* Vertikální zarovnání */
+  border: 2px solid #000; /* Černý rámeček kolem bloku */
+  border-radius: 8px; /* Zaoblené rohy */
+  overflow: hidden; /* Skrýt přesahující obsah */
+}
+
+.download-button {
+  background-color: rgb(202, 73, 73); /* Světle červené pozadí tlačítka */
+  color: white; /* Bílý text */
+  border: none; /* Bez rámečku */
+  padding: 10px 20px; /* Vnitřní odsazení */
+  font-size: 1rem; /* Velikost textu */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Přechod barvy */
+  text-shadow: 1px 1px 5px #111, 1px 1px 1px #111;
+}
+
+.download-button:hover {
+  background-color: rgb(158 50 50); /* Tmavší červená při hoveru */
+}
+
+.download-divider {
+  width: 1px; /* Tloušťka čáry */
+  height: 45px; /* Pevná výška */
+  background-color: #666; /* Jasně zelená barva */
+  border: none; /* Žádný rámeček */
+  display: inline-block; /* Ujistí viditelnost */
+}
+
+.download-count {
+  background-color: #333; /* Tmavě šedé pozadí */
+  color: #ccc; /* Bílý text */
+  padding: 10px 10px; /* Vnitřní odsazení */
+  text-align: center; /* Zarovnání na střed */
+  font-size: 0.8rem; /* Velikost textu */
+  font-weight: bold;
+  pointer-events: none; /* Zákaz klikání */
+  user-select: none; /* Zákaz označení textu */
+}
+
+#download-link {
+  color: rgba(255, 255, 245, 0.86);
+  text-decoration: none;
+}
+
+svg.svgicons {
+    display: inline;
+    position: relative;
+    bottom: 5px;
 }
 </style>
