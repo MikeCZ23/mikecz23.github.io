@@ -150,7 +150,7 @@ Spusť instalator a on udělá vše za tebe
 
 ## Ke stažení
 <div class="download-block">
-   <a href="https://www.dropbox.com/scl/fi/vpujjnn1jw623gyiiiuy2/silksong-e-tina.zip?rlkey=l74gdlslkmcqg1pomwybmywnl&st=itlt25ap&dl=1" target="_self" download id="download-link" class="download-button disabled">Stáhnout</a>
+   <a href="https://www.dropbox.com/scl/fi/vpujjnn1jw623gyiiiuy2/silksong-e-tina.zip?rlkey=l74gdlslkmcqg1pomwybmywnl&st=itlt25ap&dl=1" target="_self" download id="download-link" class="download-button">Stáhnout</a>
    <div class="download-divider"></div>
    <div class="download-count" v-text="downloadCount"></div>
 </div>
