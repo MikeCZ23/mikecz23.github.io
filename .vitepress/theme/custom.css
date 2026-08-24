@@ -32,8 +32,8 @@ html.dark{
   --tag-tyrkys-bg: #2a828a;
   --tag-tyrkys-hover: #4b9fa5;
 --card-public: #00801c;
-  --card-early: #D4A500;
-  --card-alpha: #004980;
+  --card-early: #004980;
+  --card-alpha: #D4A500;
 }
 :root{
   color-scheme:light;
