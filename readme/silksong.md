@@ -115,7 +115,7 @@ onMounted(() => {
     
 ![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
 ![](https://img.shields.io/badge/verze%20hry-1.0.30000-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.1-grey?style=for-the-badge)
+![](https://img.shields.io/badge/verze%20překladu-0.2-grey?style=for-the-badge)
 <br>
 
 ------------
