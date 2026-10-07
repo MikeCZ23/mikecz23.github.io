@@ -146,7 +146,7 @@ export default defineConfig({
   },
 
   logo: {
-      src: 'or_icon.png'
+      src: 'icon.png'
   },
 
    // lastUpdated: {
