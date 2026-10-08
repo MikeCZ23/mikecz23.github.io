@@ -182,7 +182,7 @@ export default defineConfig({
     ],
 
     footer: { /* <span class="divider">|</span> */
-      message: '<span class="divider">|</span> Powered by <a target="_blank" href="https://vitepress.dev/">VitePress <img src="https://vitepress.dev/vitepress-logo-large.webp" alt="Vite Logo" height="13px" width="13px" style="display: inline-block"></a>',
+      message: '<span class="divider">|</span> Powered by <a target="_blank" href="https://vitepress.dev/">VitePress</a>',
       copyright: `© ${new Date().getFullYear()} MikeCZ, všechna práva vyhrazena.`,
     },
 
