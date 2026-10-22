@@ -136,6 +136,43 @@ img{
     margin-right: 5px;
 }
 
+/*********************** HERO IMAGE SIZE *************************/
+.VPHomeHero .image,
+.VPHomeHero .image-container {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.VPHomeHero .image img,
+.VPHomeHero .image-container img,
+.VPHomeHero img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .VPHomeHero .image,
+  .VPHomeHero .image-container {
+    max-width: 180px;
+  }
+
+  .VPHomeHero .image img,
+  .VPHomeHero .image-container img,
+  .VPHomeHero img {
+    max-width: 180px;
+  }
+}
+
+
+
+
+
+
 .status .mikecz {
   display: flex;
   flex-wrap: wrap;
