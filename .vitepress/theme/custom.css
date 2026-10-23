@@ -52,7 +52,27 @@ html.dark{
   --vp-c-divider: #e2e2e3; /* <hr> barva */
   --vp-c-gutter: #e2e2e3; /* horní <hr> */
 --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(190deg, #f00 0%, #ffe2e2, #e3deff, #00f 100%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(100deg, #fbbf24 0%, #f97316 42%, #ea580c 72%, #b91c1c 100%);
+
+/*	:root {
+  /* Default — Electric Aurora 
+  --hero-gradient: linear-gradient(100deg, #38bdf8 0%, #6366f1 50%, #d946ef 100%);
+}
+
+html[data-theme-season="halloween"] {
+  --hero-gradient: linear-gradient(100deg, #fbbf24 0%, #f97316 42%, #ea580c 72%, #b91c1c 100%);
+}
+
+html[data-theme-season="xmas"] {
+  --hero-gradient: linear-gradient(100deg, #ffffff 0%, #bfdbfe 35%, #60a5fa 70%, #ef4444 100%);
+}
+
+.VPHero .name {
+  background: var(--hero-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 }
 
 /***********************************************/
