@@ -54,25 +54,17 @@ html.dark{
 --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(100deg, #fbbf24 0%, #f97316 42%, #ea580c 72%, #b91c1c 100%);
 
-/*	:root {
-  /* Default — Electric Aurora 
-  --hero-gradient: linear-gradient(100deg, #38bdf8 0%, #6366f1 50%, #d946ef 100%);
-}
+/* 
+Default
+radial-gradient(ellipse 280px 220px at 108% 100%, rgb(0, 75, 120) 0%, rgb(0, 75, 120) 30%, rgb(0, 145, 175) 30%, rgb(0, 145, 175) 44%, transparent 44.2%), radial-gradient(ellipse 260px 300px at -8% 0%, rgb(185, 35, 60) 0%, rgb(185, 35, 60) 23%, rgb(230, 85, 100) 23%, rgb(230, 85, 100) 36%, transparent 36.2%), rgb(83, 119, 139);
 
-html[data-theme-season="halloween"] {
-  --hero-gradient: linear-gradient(100deg, #fbbf24 0%, #f97316 42%, #ea580c 72%, #b91c1c 100%);
-}
+halloween
+linear-gradient(100deg, #fbbf24 0%, #f97316 42%, #ea580c 72%, #b91c1c 100%);
 
-html[data-theme-season="xmas"] {
-  --hero-gradient: linear-gradient(100deg, #ffffff 0%, #bfdbfe 35%, #60a5fa 70%, #ef4444 100%);
-}
-
-.VPHero .name {
-  background: var(--hero-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+xmas
+linear-gradient(100deg, #ffffff 0%, #bfdbfe 35%, #60a5fa 70%, #ef4444 100%);
+*/
+	
 }
 
 /***********************************************/
