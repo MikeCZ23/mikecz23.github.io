@@ -80,7 +80,9 @@ const people = {
     <strong>Steam</strong>
   </div>
 </div>
+
 ------------
+
 Progressbar95 je jedinečná indie hra se silnou nostalgickou atmosférou. Promění vintage prvky GUI, jako jsou panely, tlačítka a ikony, na herní prvky! Jednoduchá a návyková hra založená na desítkách mini-her a hádanek. Hra vás rozesměje!
 
 ## Členové týmu
@@ -169,6 +171,7 @@ svg.svgicons {
 
 
   
+
 .version-box {
   display: flex;
   align-items: stretch;
@@ -203,12 +206,16 @@ svg.svgicons {
   overflow-wrap: anywhere;
 }
 
+/* Viditelné vertikální oddělovače */
 .version-box .divider {
+  display: block;
   flex: 0 0 1px;
+  width: 1px;
   align-self: stretch;
-  background: #49454f;
+  background-color: #625b71;
   margin: 8px 0;
 }
+  
   
 </style>
 
