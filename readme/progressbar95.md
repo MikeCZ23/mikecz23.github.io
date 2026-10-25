@@ -60,11 +60,26 @@ const people = {
 
 # Progressbar95 - Čeština
 
-![](https://img.shields.io/badge/přeloženo-100%25-darkgreen?style=for-the-badge)<br>
-![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-2024-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-2024/11/11-grey?style=for-the-badge)
+<div class="version-box">
+  <div class="version-item">
+    <span class="label">Verze překladu</span>
+    <strong>2024/11/11</strong>
+  </div>
 
+  <span class="divider"></span>
+
+  <div class="version-item">
+    <span class="label">Verze hry</span>
+    <strong>2024</strong>
+  </div>
+
+  <span class="divider"></span>
+
+  <div class="version-item">
+    <span class="label">Herní klient</span>
+    <strong>Steam</strong>
+  </div>
+</div>
 ------------
 Progressbar95 je jedinečná indie hra se silnou nostalgickou atmosférou. Promění vintage prvky GUI, jako jsou panely, tlačítka a ikony, na herní prvky! Jednoduchá a návyková hra založená na desítkách mini-her a hádanek. Hra vás rozesměje!
 
@@ -151,6 +166,50 @@ svg.svgicons {
     position: relative;
     bottom: 5px;
 }
+
+
+  
+.version-box {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  background: #1e1e1e;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #f2ecf7;
+  font: 14px/1.4 Roboto, Arial, sans-serif;
+}
+
+.version-item {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  min-width: 0;
+  padding: 9px 15px;
+}
+
+.version-item .label {
+  color: #bdb8c5;
+  font-size: 11px;
+  letter-spacing: 0.35px;
+}
+
+.version-item strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.version-box .divider {
+  flex: 0 0 1px;
+  align-self: stretch;
+  background: #49454f;
+  margin: 8px 0;
+}
+  
 </style>
 
 
