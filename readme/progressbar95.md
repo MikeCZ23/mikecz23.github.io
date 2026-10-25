@@ -199,17 +199,6 @@ svg.svgicons {
   background-repeat: no-repeat;
 }
 
-  .version-item + .version-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 22%;
-  height: 56%;
-  width: 1px;
-  background: #49454f;
-  transform: translateX(-0.5px);
-  }
-
 .version-item .label {
   color: #bdb8c5;
   font-size: 11px;
