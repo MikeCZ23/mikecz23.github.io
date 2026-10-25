@@ -60,26 +60,25 @@ const people = {
 
 # Progressbar95 - Čeština
 
+
+
 <div class="version-box">
   <div class="version-item">
     <span class="label">Verze překladu</span>
     <strong>2024/11/11</strong>
   </div>
 
-  <span class="divider"></span>
-
   <div class="version-item">
     <span class="label">Verze hry</span>
     <strong>2024</strong>
   </div>
-
-  <span class="divider"></span>
 
   <div class="version-item">
     <span class="label">Herní klient</span>
     <strong>Steam</strong>
   </div>
 </div>
+
 
 ------------
 
@@ -172,6 +171,7 @@ svg.svgicons {
 
   
 
+
 .version-box {
   display: flex;
   align-items: stretch;
@@ -195,6 +195,10 @@ svg.svgicons {
   padding: 9px 15px;
 }
 
+.version-item + .version-item {
+  border-left: 1px solid #625b71;
+}
+
 .version-item .label {
   color: #bdb8c5;
   font-size: 11px;
@@ -206,16 +210,6 @@ svg.svgicons {
   overflow-wrap: anywhere;
 }
 
-/* Viditelné vertikální oddělovače */
-.version-box .divider {
-  display: block;
-  flex: 0 0 1px;
-  width: 1px;
-  align-self: stretch;
-  background-color: #625b71;
-  margin: 8px 0;
-}
-  
   
 </style>
 
