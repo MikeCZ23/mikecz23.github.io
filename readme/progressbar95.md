@@ -206,7 +206,7 @@ svg.svgicons {
   top: 22%;
   height: 56%;
   width: 1px;
-  background: red;
+  background: #49454f;
   transform: translateX(-0.5px);
   }
 
