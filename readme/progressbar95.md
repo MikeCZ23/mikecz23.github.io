@@ -196,8 +196,19 @@ svg.svgicons {
 }
 
 .version-item + .version-item {
-  border-left: 1px solid #625b71;
+  border-left: none;
+  position: relative;
 }
+
+  .version-item + .version-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22%;
+  height: 56%;
+  width: 1px;
+  background: #49454f;
+  }
 
 .version-item .label {
   color: #bdb8c5;
