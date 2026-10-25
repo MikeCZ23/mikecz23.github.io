@@ -169,10 +169,7 @@ svg.svgicons {
 }
 
 
-  
-
-
-.version-box {
+  .version-box {
   display: flex;
   align-items: stretch;
   width: 100%;
@@ -196,8 +193,10 @@ svg.svgicons {
 }
 
 .version-item + .version-item {
-  border-left: none;
-  position: relative;
+  background-image: linear-gradient(#49454f);
+  background-size: 1px 56%;
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
   .version-item + .version-item::before {
@@ -207,7 +206,8 @@ svg.svgicons {
   top: 22%;
   height: 56%;
   width: 1px;
-  background: #49454f;
+  background: red;
+  transform: translateX(-0.5px);
   }
 
 .version-item .label {
@@ -221,7 +221,6 @@ svg.svgicons {
   overflow-wrap: anywhere;
 }
 
-  
 </style>
 
 
