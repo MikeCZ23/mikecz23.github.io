@@ -675,3 +675,45 @@ margin-left: -6px;
   }
 
 }
+
+/***************** Versioning ****************/
+.version-box {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  background: #1e1e1e;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #f2ecf7;
+  font: 14px/1.4 Roboto, Arial, sans-serif;
+}
+
+.version-item {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  min-width: 0;
+  padding: 9px 15px;
+}
+
+.version-item + .version-item {
+  background-image: linear-gradient(#49454f);
+  background-size: 1px 56%;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.version-item .label {
+  color: #bdb8c5;
+  font-size: 11px;
+  letter-spacing: 0.35px;
+}
+
+.version-item strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
