@@ -60,8 +60,6 @@ const people = {
 
 # Progressbar95 - Čeština
 
-<br>
-
 <div class="version-box">
   <div class="version-item">
     <span class="label">Verze překladu</span>
