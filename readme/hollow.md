@@ -120,7 +120,7 @@ const people = {
 
   <div class="version-item">
     <span class="label">Verze hry</span>
-    <strong>1.5.12620</strong>
+    <strong>1.5.12620 (Aktuální)</strong>
   </div>
 
   <div class="version-item">
