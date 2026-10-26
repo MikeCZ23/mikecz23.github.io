@@ -102,9 +102,23 @@ const people = {
   <div class="progpr" style="flex: 1"><el-progress :percentage="90" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
 </div>
     
-![](https://img.shields.io/badge/herní%20klient-itch.io-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20hry-0.8.2c-grey?style=for-the-badge) 
-![](https://img.shields.io/badge/verze%20překladu-0.8.2c-grey?style=for-the-badge)
+
+<div class="version-box">
+  <div class="version-item">
+    <span class="label">Verze překladu</span>
+    <strong>0.8.2c</strong>
+  </div>
+
+  <div class="version-item">
+    <span class="label">Verze hry</span>
+    <strong>0.8.2c</strong>
+  </div>
+
+  <div class="version-item">
+    <span class="label">Herní klient</span>
+    <strong>itch.io</strong>
+  </div>
+</div>
 
 ------------
 Pracujete jako vědec v izolované výzkumné laboratoři ve Švýcarských horách. Vaším úkolem je shromažďovat signály z vesmíru, analyzovat je, zpracovávat a prodávat, abyste získali body. Můžete získávat běžné signály a objekty, jako jsou trpasličí planety a hvězdy, nebo můžete získat něco "neobvyklého" či "podivného". Hra obsahuje více než 50 dní a událostí, více než 150 možných signálů, několik easter eggů a tajemství.<br /><br />
