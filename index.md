@@ -15,7 +15,7 @@ hero:
   image:
     light:
     dark:
-    src: logo-ween.png
+    src: logo.png
     alt: logo
 footer: MIT Licensed | Copyright © 2024-present MikeCZ
 ---
