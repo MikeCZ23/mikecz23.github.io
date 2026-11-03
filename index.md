@@ -15,7 +15,7 @@ hero:
   image:
     light:
     dark:
-    src: logo.png
+    src: icon.png
     alt: logo
 footer: MIT Licensed | Copyright © 2024-present MikeCZ
 ---
