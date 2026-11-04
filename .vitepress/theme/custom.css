@@ -51,7 +51,7 @@ html.dark{
   --vp-c-brand-2: #c52121; /* tip / hlavní */
   --vp-c-divider: #e2e2e3; /* <hr> barva */
   --vp-c-gutter: #e2e2e3; /* horní <hr> */
-	--rainbow-prev: lightblue; /* hero img */
+	--rainbow-prev: #60a5fa; /* hero img */
 	--rainbow-next: #fff; /* hero img */
 	
 --vp-home-hero-image-filter: blur(68px);
