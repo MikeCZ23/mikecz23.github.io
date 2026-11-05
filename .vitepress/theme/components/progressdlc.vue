@@ -71,6 +71,11 @@ export default {
   border-radius: 20px;
   padding: 3px;
   margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .compact-switch button {
