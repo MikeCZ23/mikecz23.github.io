@@ -100,7 +100,9 @@ onMounted(() => {
 <el-tag type="warning" effect="light">Metrodvanie</el-tag>
 </a></div></div> 
 
-<div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
+<progressdlc />
+
+<!-- <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Překlad:</div>
   <div class="progpr" style="flex: 1"><el-progress :percentage="100" :stroke-width="18" :text-inside="true" status="success" striped /></div>
 </div>
@@ -111,7 +113,7 @@ onMounted(() => {
 <div class="stavpr prog-custom" style="display: flex; align-items: center; column-gap: 12px">
   <div class="infopr">Testovani:</div>
   <div class="progpr" style="flex: 1"><el-progress :percentage="50" :stroke-width="18" :text-inside="true" status="primary" striped /></div>
-</div>
+</div> -->
     
 <div class="version-box">
   <div class="version-item">
