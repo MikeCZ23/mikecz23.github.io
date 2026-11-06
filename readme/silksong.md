@@ -123,7 +123,7 @@ onMounted(() => {
 
   <div class="version-item">
     <span class="label">Verze hry</span>
-    <strong>1.0.30000</strong>
+    <strong>1.0.30000 (Aktuální)</strong>
   </div>
 
   <div class="version-item">
