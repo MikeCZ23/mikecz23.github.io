@@ -102,7 +102,7 @@ export default {
 
 /* Základní hra – modrá */
 .compact-switch button.active:first-child {
- background: var(--vp-c-text-1);
+ background: var(--vp-c-text-2);
 }
 
 /* DLC Sea of Sorrow – fialová */
