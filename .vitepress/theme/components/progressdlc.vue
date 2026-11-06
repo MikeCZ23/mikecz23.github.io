@@ -3,19 +3,20 @@
     
     <!-- Minimalistický přepínač -->
     <div class="compact-switch">
-      <button 
-        :class="{ active: activeTab === 'base' }" 
-        @click="activeTab = 'base'"
-      >
-        Základní hra
-      </button>
-      <button 
-        :class="{ active: activeTab === 'dlc' }" 
-        @click="activeTab = 'dlc'"
-      >
-        DLC Sea of Sorrow
-      </button>
-    </div>
+  <button 
+    :class="{ active: activeTab === 'base' }" 
+    @click="activeTab = 'base'"
+  >
+    Základní hra
+  </button>
+
+  <button 
+    :class="{ active: activeTab === 'dlc' }" 
+    @click="activeTab = 'dlc'"
+  >
+    DLC Sea of Sorrow
+  </button>
+</div>
 
     <!-- Obsah: Základní hra -->
     <div v-show="activeTab === 'base'" class="progress-section">
@@ -95,9 +96,18 @@ export default {
 }
 
 .compact-switch button.active {
-  background: var(--vp-c-brand-1, #646cff);
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Základní hra – modrá */
+.compact-switch button.active:first-child {
+ /* background: #409eff; */
+}
+
+/* DLC Sea of Sorrow – fialová */
+.compact-switch button.active:last-child {
+  background: #147D92;
 }
 
 /* Tvé zachované styly pro progress bary */
